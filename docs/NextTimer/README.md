@@ -1,10 +1,10 @@
-# スナイプタイマー NextTimer v0.2.2
+# スナイプタイマー NextTimer
 
-最終更新日：2025/03/13
+最終更新日：2025/07/24
 
 このテンプレートは、下記のパッケージの内容を含みます。
 
-- スナイプタイマーNextTimer Modern Set
+- [スナイプタイマーNextTimer Modern Set](https://pintocuru.booth.pm/items/6136477)
 
 OBS で使える、ライバー・配信者向けカウントダウンタイマーです。
 
@@ -143,6 +143,7 @@ A: タイマー自体に効果音機能はありません。わんコメの Word
 
 ---
 
-作成者：せすじピンとしてます @pintocuru
+Pintocuru(せすじピンとしてます) @pintocuru
 
-[Twitter](https://twitter.com/pintocuru) | [YouTube](https://www.youtube.com/@pintocuru)
+- <https://twitter.com/pintocuru>
+- <https://www.youtube.com/@pintocuru>

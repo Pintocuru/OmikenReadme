@@ -1,4 +1,4 @@
-# おみくじ BOT プラグイン OmikenPlugin for わんコメ v0.1.1
+# おみくじ BOT プラグイン のスクリプト (未完成)
 
 最終更新日：2025/01/27
 
@@ -186,7 +186,7 @@ A: 「コメントが表示されない」ケースが報告されています�
 
 ### v0.2.0 25/01/27
 
-- ジェネレーターをメイン/トースト表示と分けていたのを、1つに統合しました。
+- ジェネレーターをメイン/トースト表示と分けていたのを、1 つに統合しました。
 - 一部おみくじの表示がおかしかったのを修正
 
 ### v0.1.0 25/01/24
@@ -195,8 +195,6 @@ A: 「コメントが表示されない」ケースが報告されています�
 
 ---
 
-Pintocuru(せすじピンとしてます) @pintocuru
+作成者：せすじピンとしてます @pintocuru
 
-<https://twitter.com/pintocuru>
-
-<https://www.youtube.com/@pintocuru>
+[Twitter](https://twitter.com/pintocuru) | [YouTube](https://www.youtube.com/@pintocuru)

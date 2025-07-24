@@ -1,17 +1,17 @@
-# おみくじ BOT プラグイン OmikenPlugin for わんコメ v0.1.0
+# おみくじ BOT プラグイン OmikenPlugin for わんコメ
 
-最終更新日：2025/02/07
+最終更新日：2025/07/24
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、プラグイン です。
 
-この内容は、[BOOTH](https://booth.pm/) で配布している、 [おみくじ BOT プラグイン OmikenBOT Plugin](https://booth.pm/ja/items/6499304) の readme となります。
+この内容は、BOOTH で配布している、 [おみくじ BOT プラグイン OmikenBOT Plugin](https://booth.pm/ja/items/6499304) の readme となります。
 
-## このプラグインを利用するときは
+## はじめに
 
-- [わんコメ](https://onecomme.com/) の利用規約に基づきます。
-- わんコメの利用規約に基づき、プラグインに限っては商業利用も含め自由に利用することができます。
-- 本プラグインの使用に伴ういかなる損害についても責任を負いません。ご利用は自己責任でお願いします。
-- プラグインの仕様は予告なく変更される可能性があります。
+- [わんコメ](https://onecomme.com/) の機能を前提としたプラグインです。
+- 本ソフトウェアの利用は自己責任でお願いいたします。
+- 仕様は予告なく変更される場合があります。
+- 商業利用を含め、自由にご利用いただけます。
 
 ## 1.このプラグインは何？
 
@@ -184,17 +184,21 @@ A: 「コメントが表示されない」ケースが報告されています�
 
 おみくじメーカーや WordParty、アイコンで使用しています。
 
-- **じゃんけんプレートのイラスト**: [ツカッテ](https://tsukatte.com/rock-paper-scissors_plate/)
-- **ガムイラスト**: [イラストくん](https://illustkun.com/07358-20230417-b/)
-- **各種効果音**: [効果音ラボ](https://soundeffect-lab.info/)
-- **細かい部品のほとんど**: [ダーヤマ TOPECONHEROES](https://twitter.com/topeconheroes)
+### 🎨 イラスト・グラフィック
+
+- **各種アイコン**
+  [ダーヤマ TOPECONHEROES](https://twitter.com/topeconheroes)
 
 ### 素材の取り扱いについて
 
-- イラスト素材、動画、音源の再配布は禁止です。
-- 使用にあたっては、各配布サイトの利用規約をご確認ください。
+- イラスト素材・動画・音源の再配布は禁止
+- イラストや音源の利用については、各配布サイトの利用規約をご確認ください。
 
 ## バージョン情報
+
+### v0.2.2 25/07/24
+
+- Readme を GitHub に移行
 
 ### v0.2.1 25/02/07
 
@@ -214,8 +218,6 @@ A: 「コメントが表示されない」ケースが報告されています�
 
 ---
 
-Pintocuru(せすじピンとしてます) @pintocuru
+作成者：せすじピンとしてます @pintocuru
 
-<https://twitter.com/pintocuru>
-
-<https://www.youtube.com/@pintocuru>
+[Twitter](https://twitter.com/pintocuru) | [YouTube](https://www.youtube.com/@pintocuru)

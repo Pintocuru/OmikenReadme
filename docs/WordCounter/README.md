@@ -4,8 +4,7 @@
 
 このテンプレートは、下記のパッケージの内容を含みます。
 
-- 勝数カウンター WordCounter VictoryCrown
-- キルカウンター KillingCounter KillingSpree
+- [勝数カウンター WordCounter VictoryCrown](https://pintocuru.booth.pm/items/6688021)
 
 OBS で使える、ライバー・配信者向けの、単一なカウンターです。
 

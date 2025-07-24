@@ -1,11 +1,11 @@
-# ライバーカウンター LiverCounter v0.2.0
+# ライバーカウンター LiverCounter
 
 最終更新日：2025/04/16
 
 このテンプレートは、下記のパッケージの内容を含みます。
 
 - [ライバーカウンター LiverCounter Basic](https://pintocuru.booth.pm/items/6810122)
-- [ライバーカウンター LiverCounter Capsule](https://pintocuru.booth.pm/items/6810122))
+- [ライバーカウンター LiverCounter Capsule](https://pintocuru.booth.pm/items/6810122)
 
 OBS で使える、ライバー・配信者向け多機能カウンターです。
 
