@@ -7,10 +7,10 @@
 このテンプレートは、下記のパッケージの内容を含みます。
 
 - [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](https://pintocuru.booth.pm/items/5471598)
-- おみくじ BOT ずんだもん OmikujiBot Zundamon
-- おみくじ BOT 高飛車な四国めたん OmikujiBot Shikoku Metan
+- [おみくじ BOT ずんだもん OmikujiBot Zundamon](https://pintocuru.booth.pm/items/6053855)
+- [おみくじ BOT 高飛車な四国めたん OmikujiBot Shikoku Metan](https://pintocuru.booth.pm/items/6058829)
 - おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari
-- スイカ🍉ジェネレーター Gousei Suika Generator
+- [スイカ🍉ジェネレーター Gousei Suika Generator](https://pintocuru.booth.pm/items/5813323)
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、ジェネレーターBOT です。
 
@@ -153,9 +153,22 @@ A: 「コメントが表示されない」ケースが報告されています�
 
 ## バージョン情報
 
-### v0.2.2 25/07/24
+### v0.8.0 Pre.02 25/07/27
 
-- Readme を GitHub に移行
+- **重大な修正：** キャラクターデータに `frameId` がある場合、わんコメの枠が正しく生成されない不具合を修正しました。
+	- この問題により、わんコメの枠が正常に動作しない場合がありました。**必ずこのバージョンへ更新してください。**
+- ギフトを受け取っても「ギフト条件」が反応しなかった不具合を修正
+
+### v0.8.0 Pre.01 25/07/24
+
+- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](../OmikujiBotReimuMarisa/README.md) から、システム的な更新はこちらで行うことにしました。
+	- それにより、バージョンが 0.8 からとなっています。
+- [おみくじBOT](../OmikujiBot/README.md) を使うことで、コンフィグメーカーを実現できるように。
+	- じゃんけんの時、一人称が「俺」となっていますが、コンフィグメーカーで「私」への変更が容易になりました。
+- キャラクター画像を一新してます。
+- 「スロット」「スイカゲーム」は、DX 版として有料となります。引き続き無料で使う場合は、v0.7 をお使いください。
+- 履歴機能の表示が大きくなりました。
+- v0.7 以前の設定は使用できません。ご了承ください。
 
 ### v0.2.1 25/02/07
 
