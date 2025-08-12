@@ -1,8 +1,10 @@
+<%* await tp.user.expandEmbeds(tp) %>
+
 # おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa
 
 最終更新日：2025/07/24
 
-![[../../template/intro/intro_11]] ジェネレーターBOT です。
+![[../../template/intro/intro_11]] ジェネレーター BOT です。
 
 ![[../../template/intro/intro_12]] [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](https://pintocuru.booth.pm/items/5471598) ![[../../template/intro/intro_13]]
 
@@ -56,7 +58,7 @@
 
 ### v0.8.0 25/07/24
 
-- システムファイルを「[おみくじBOT](../OmikujiBot/README.md)」に移しました。以降、システム的なバージョン情報はそちらの ReadMe に記載します。
+- システムファイルを「[おみくじ BOT](../OmikujiBot/README.md)」に移しました。以降、システム的なバージョン情報はそちらの ReadMe に記載します。
 - ゆっくり霊夢とゆっくり魔理沙の画像を png から webp に変更し、大幅にファイルを小さくしました。
 
 ### v0.7.3 24/08/30
