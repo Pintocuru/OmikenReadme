@@ -2,15 +2,11 @@
 
 最終更新日：2025/07/24
 
-配信者のためのコメントアプリ「わんコメ」で使用できる、ジェネレーター BOT です。
+![[../../template/intro/intro_11]] ジェネレーターBOT です。
 
-この内容は、BOOTH で配布している、[おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](https://pintocuru.booth.pm/items/5471598) の readme となります。
+![[../../template/intro/intro_12]] [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](https://pintocuru.booth.pm/items/5471598) ![[../../template/intro/intro_13]]
 
-## はじめに
-
-- [わんコメ](https://onecomme.com/) の機能を前提としたプラグインです。
-- 本ソフトウェアの利用は自己責任でお願いいたします。
-- 仕様は予告なく変更される場合があります。
+![[../../template/intro/intro_21_hazimeni]]
 
 ## 1.このジェネレーターは何？
 
@@ -60,7 +56,7 @@
 
 ### v0.8.0 25/07/24
 
-- システムファイルを「[おみくじ BOT](../OmikujiBot/README.md)」に移しました。以降、システム的なバージョン情報はそちらの ReadMe に記載します。
+- システムファイルを「[おみくじBOT](../OmikujiBot/README.md)」に移しました。以降、システム的なバージョン情報はそちらの ReadMe に記載します。
 - ゆっくり霊夢とゆっくり魔理沙の画像を png から webp に変更し、大幅にファイルを小さくしました。
 
 ### v0.7.3 24/08/30

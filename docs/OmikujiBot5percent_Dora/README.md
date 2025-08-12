@@ -2,9 +2,9 @@
 
 最終更新日：2025/08/12
 
-配信者のためのコメントアプリ「わんコメ」で使用できる、ジェネレーターBOT です。
+配信者のためのコメントアプリ「わんコメ」で使用できる、ジェネレーター BOT です。
 
-この内容は、BOOTH で配布している、 [おみくじBOT用WordParty](https://pintocuru.booth.pm/items/6048048) の readme となります。
+この内容は、BOOTH で配布している、 [どこでもドラちゃん Bot OmikujiBot 5percent_Dora](https://pintocuru.booth.pm/items/7291931) の readme となります。
 
 ## はじめに
 
@@ -16,14 +16,14 @@
 
 ### 「ドラちゃん」を名乗るキャラクターが「ひみつ道具」をランダムに出してくれるジェネレーターです
 
-- わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、コメントや 30 分ごとに自動でつぶやいてくれる、ジェネレーターBOT です。
+- わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、コメントや 30 分ごとに自動でつぶやいてくれる、ジェネレーター BOT です。
 - 導入方法や、基本的な使い方は [README](../OmikujiBot/README.md) をご覧ください。
 
 ![](images/default.webp)
 
 ## 2.「おみくじ BOT 用 WordParty」導入のススメ
 
-- このおみくじの内容は、[おみくじBOT用WordParty](https://booth.pm/ja/items/6048048) と一緒に使うことを想定して作成されています。
+- このおみくじの内容は、[おみくじ BOT 用 WordParty](https://booth.pm/ja/items/6048048) と一緒に使うことを想定して作成されています。
 - WordParty は、コメントにあるワードをきっかけに演出を表示するテンプレートです。おみくじ BOT は、このきっかけを自在に指定し、演出を表示させます。
 - WordParty に関する詳細は [コメントによる演出 - WordParty](https://onecomme.com/docs/feature/wordparty) を、導入方法は [おみくじ BOT 用 WordParty README](https://github.com/Pintocuru/OmikenReadme/blob/main/docs/OmikenWordParty/README.md) をご覧ください。
 
@@ -47,7 +47,7 @@
 
 ### v0.8.0 25/07/24
 
-- システムファイルを「[おみくじBOT](../OmikujiBot/README.md)」に移しました。以降、システム的なバージョン情報はそちらの ReadMe に記載します。
+- システムファイルを「[おみくじ BOT](../OmikujiBot/README.md)」に移しました。以降、システム的なバージョン情報はそちらの ReadMe に記載します。
 - ゆっくり霊夢とゆっくり魔理沙の画像を png から webp に変更し、大幅にファイルを小さくしました。
 
 ### v0.7.3 24/08/30
