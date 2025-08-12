@@ -24,23 +24,7 @@ module.exports = async (tp) => {
         content: content,
         path: currentFile ? currentFile.path : "",
         app: input.app,
-      };
-    }
-
-    // ファイルオブジェクトの場合
-    if (input.path && input.content !== undefined) {
-      return {
-        vault: input.vault,
-        content: input.content,
-        path: input.path,
-      };
-    }
-
-    // 文字列の場合（直接コンテンツとして扱う）
-    if (typeof input === "string") {
-      return {
-        content: input,
-        path: "", // デフォルト値を設定
+        tp: input, // Templaterオブジェクトを保持
       };
     }
 
@@ -52,7 +36,6 @@ module.exports = async (tp) => {
 
   // ヘルパー関数
   const dirname = (path) => {
-    // path が文字列でない場合の安全処理
     if (typeof path !== "string" || !path) return "";
     const lastSlash = path.lastIndexOf("/");
     return lastSlash === -1 ? "" : path.slice(0, lastSlash);
@@ -80,11 +63,37 @@ module.exports = async (tp) => {
     return result.join("/");
   };
 
-  // Templaterタグを除去する関数
-  const removeTemplaterTags = (content) => {
-    // <%* ... %> 形式のタグを除去
-    const templaterRegex = /<%\*[^%]*%>/g;
-    return content.replace(templaterRegex, "").trim();
+  // Templaterタグを処理する関数（expandEmbeds専用タグのみ除去）
+  const removeExpandEmbedsTag = (content) => {
+    // expandEmbeds呼び出しのタグのみ除去
+    const expandEmbedsRegex =
+      /<%\*\s*await\s+tp\.user\.expandEmbeds\(tp\)\s*%>/g;
+    return content.replace(expandEmbedsRegex, "").trim();
+  };
+
+  // Templaterタグを実際に評価・変換する関数
+  const processTemplaterTags = async (content, tpObject) => {
+    try {
+      // 日付タグの処理
+      const dateRegex = /<%\s*tp\.date\.now\(['"]([^'"]+)['"]\)\s*%>/g;
+      let processedContent = content;
+
+      let match;
+      while ((match = dateRegex.exec(content)) !== null) {
+        const format = match[1];
+        const currentDate = tpObject.date.now(format);
+        processedContent = processedContent.replace(match[0], currentDate);
+        console.log(`Converted date tag: ${match[0]} → ${currentDate}`);
+      }
+
+      // 他のTemplaterタグも同様に処理可能（必要に応じて拡張）
+      // 例: <% tp.file.title %>, <% tp.date.yesterday() %> など
+
+      return processedContent;
+    } catch (error) {
+      console.warn("Error processing Templater tags:", error);
+      return content;
+    }
   };
 
   // メイン処理
@@ -99,7 +108,7 @@ module.exports = async (tp) => {
       return "";
     }
 
-    // 新しい正規表現インスタンスを作成（グローバル状態を避ける）
+    // 埋め込み展開処理
     const embedRegex = /!\[\[([^\]]+)\]\]/g;
     let output = "";
     let lastIndex = 0;
@@ -122,11 +131,9 @@ module.exports = async (tp) => {
         try {
           console.log(`Processing embed: ${link}`);
 
-          // 拡張子がないので付与する
           const resolvedPath =
             resolvePath(dirname(basePath), linkPath) + DEFAULT_EXTENSION;
 
-          // シンプルなパス候補のみテスト（ファイル一覧取得を避ける）
           const pathCandidates = [
             resolvedPath,
             linkPath,
@@ -206,16 +213,25 @@ module.exports = async (tp) => {
 
   // メイン実行
   try {
-    // Templaterタグを除去してから処理
-    const cleanedContent = removeTemplaterTags(context.content);
+    // 1. expandEmbedsタグのみ除去（他のTemplaterタグは保持）
+    const contentWithoutExpandTag = removeExpandEmbedsTag(context.content);
     console.log(
-      `Removed Templater tags, content length: ${cleanedContent.length}`
+      `Removed expandEmbeds tag, content length: ${contentWithoutExpandTag.length}`
     );
 
-    // 埋め込みを展開
-    const expandedResult = await expandEmbeds(cleanedContent, context.path);
+    // 2. Templaterタグを変換（日付など）
+    const processedContent = await processTemplaterTags(
+      contentWithoutExpandTag,
+      context.tp
+    );
+    console.log(
+      `Processed Templater tags, content length: ${processedContent.length}`
+    );
 
-    // README.mdを作成
+    // 3. 埋め込みを展開
+    const expandedResult = await expandEmbeds(processedContent, context.path);
+
+    // 4. README.mdを作成
     if (context.vault && context.app) {
       const result = await createReadmeFile(
         expandedResult,
@@ -224,7 +240,10 @@ module.exports = async (tp) => {
       );
       console.log("Process completed:", result);
 
-      // Templaterの出力は空文字にする（README.mdに出力したため）
+      // 6. 完了通知を表示
+      new Notice("✅ README.md の生成が完了しました！", 3000);
+
+      // 5. 元ファイルは変更しない、Templaterの出力も空文字
       return "";
     } else {
       console.warn("Vault or app not available, returning expanded content");

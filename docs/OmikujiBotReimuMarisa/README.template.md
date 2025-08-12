@@ -1,8 +1,6 @@
-<%* await tp.user.expandEmbeds(tp) %>
-
 # おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa
 
-最終更新日：2025/07/24
+最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
 ![[../../template/intro/intro_11]] ジェネレーター BOT です。
 
@@ -156,3 +154,5 @@
 作成者：せすじピンとしてます @pintocuru
 
 [Twitter](https://twitter.com/pintocuru) | [YouTube](https://www.youtube.com/@pintocuru)
+
+<%* await tp.user.expandEmbeds(tp) %>
