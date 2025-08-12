@@ -1,0 +1,25 @@
+{
+  "name": "omiken-readme",
+  "version": "1.0.0",
+  "description": "Pintocuru の作成したアプリのREADME群と、README生成支援ツール",
+  "scripts": {
+    "gen:readme": "tsx src/generateReadmes.ts"
+  },
+  "author": "Pintocuru",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "配信支援",
+    "README",
+    "automation",
+    "docs",
+    "typescript"
+  ],
+  "repository": "https://github.com/Pintocuru/OmikenReadme",
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  },
+  "packageManager": "yarn@4.9.2"
+}
