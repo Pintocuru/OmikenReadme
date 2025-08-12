@@ -2,9 +2,9 @@
 
 最終更新日：2025/07/24
 
-配信者のためのコメントアプリ「わんコメ」で使用できる、ジェネレーター BOT です。
+配信者のためのコメントアプリ「わんコメ」で使用できる、 ジェネレーター BOT です。
 
-この内容は、BOOTH で配布している、[おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](https://pintocuru.booth.pm/items/5471598) の readme となります。
+この内容は、BOOTH で配布している、 [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](https://pintocuru.booth.pm/items/5471598) の readme となります。
 
 ## はじめに
 

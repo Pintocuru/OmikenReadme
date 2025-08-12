@@ -3,6 +3,7 @@ module.exports = async (tp) => {
   // 設定
   const MAX_RECURSION_DEPTH = 5;
   const DEFAULT_EXTENSION = ".md";
+  const OUTPUT_FILENAME = "README.md";
 
   // コンテキスト取得
   const getContentContext = async (input) => {
@@ -16,15 +17,13 @@ module.exports = async (tp) => {
         ? await input.app.vault.cachedRead(currentFile)
         : "";
 
-      console.log("=== Context Debug ===");
-      console.log("currentFile:", currentFile);
-      console.log("currentFile.path:", currentFile?.path);
-      console.log("input.file:", input.file);
+      console.log("Processing file:", currentFile?.path);
 
       return {
         vault: input.app.vault,
         content: content,
         path: currentFile ? currentFile.path : "",
+        app: input.app,
       };
     }
 
@@ -81,6 +80,13 @@ module.exports = async (tp) => {
     return result.join("/");
   };
 
+  // Templaterタグを除去する関数
+  const removeTemplaterTags = (content) => {
+    // <%* ... %> 形式のタグを除去
+    const templaterRegex = /<%\*[^%]*%>/g;
+    return content.replace(templaterRegex, "").trim();
+  };
+
   // メイン処理
   const expandEmbeds = async (content, basePath, depth = 0) => {
     if (depth > MAX_RECURSION_DEPTH) {
@@ -99,9 +105,11 @@ module.exports = async (tp) => {
     let lastIndex = 0;
     let match;
 
-    console.log(
-      `=== Processing depth ${depth}, content length: ${content.length} ===`
-    );
+    if (depth === 0) {
+      console.log(
+        `Starting embed expansion, content length: ${content.length}`
+      );
+    }
 
     while ((match = embedRegex.exec(content)) !== null) {
       output += content.slice(lastIndex, match.index);
@@ -112,14 +120,11 @@ module.exports = async (tp) => {
 
       if (context.vault && basePath) {
         try {
-          console.log(`--- Processing embed: ${link} ---`);
-          console.log("linkPath:", linkPath);
-          console.log("basePath:", basePath);
+          console.log(`Processing embed: ${link}`);
 
           // 拡張子がないので付与する
           const resolvedPath =
             resolvePath(dirname(basePath), linkPath) + DEFAULT_EXTENSION;
-          console.log("resolvedPath:", resolvedPath);
 
           // シンプルなパス候補のみテスト（ファイル一覧取得を避ける）
           const pathCandidates = [
@@ -132,15 +137,13 @@ module.exports = async (tp) => {
           for (const candidate of pathCandidates) {
             linkedFile = context.vault.getAbstractFileByPath(candidate);
             if (linkedFile) {
-              console.log(`Found file at: ${candidate}`);
+              console.log(`Found file: ${candidate}`);
               break;
             }
           }
 
           if (linkedFile && linkedFile.extension === "md") {
-            console.log(`Reading file: ${linkedFile.path}`);
             const linkedContent = await context.vault.cachedRead(linkedFile);
-            console.log(`Content read, length: ${linkedContent.length}`);
 
             // 無限ループ防止：同じファイルを再帰処理しない
             if (linkedFile.path !== basePath) {
@@ -150,14 +153,13 @@ module.exports = async (tp) => {
                 depth + 1
               );
               output += expandedContent;
-              console.log(`Expansion complete for: ${linkedFile.path}`);
             } else {
               console.warn(`Skipping self-reference: ${linkedFile.path}`);
               output += `<!-- Self-reference skipped: ${link} -->`;
             }
             continue;
           } else {
-            console.warn(`File not found: ${resolvedPath}`);
+            console.warn(`File not found: ${link}`);
           }
         } catch (error) {
           console.warn(`Error processing embed [[${linkPath}]]:`, error);
@@ -169,28 +171,67 @@ module.exports = async (tp) => {
     }
 
     output += content.slice(lastIndex);
-    console.log(`=== Completed depth ${depth} ===`);
     return output;
   };
 
-  const finalResult = await expandEmbeds(context.content, context.path);
+  // README.md作成・更新関数
+  const createReadmeFile = async (content, vault, app) => {
+    try {
+      // 現在のファイルのディレクトリを取得
+      const currentFile = app.workspace.getActiveFile();
+      const currentDir = currentFile ? dirname(currentFile.path) : "";
+      const readmePath = currentDir
+        ? `${currentDir}/${OUTPUT_FILENAME}`
+        : OUTPUT_FILENAME;
 
-  // デバッグ：結果の確認
-  console.log("=== FINAL RESULT ===");
-  console.log("Result length:", finalResult.length);
-  console.log("Result preview:", finalResult);
-  console.log("==================");
+      // 既存のREADME.mdがあるかチェック
+      const existingFile = vault.getAbstractFileByPath(readmePath);
 
-  /**
-   * TODO:finalResult の結果をREADME.mdに新規作成する
-   * (既にREADME.mdがあるなら、消してから新規作成する)
-   */
+      if (existingFile) {
+        console.log(`Deleting existing ${OUTPUT_FILENAME}: ${readmePath}`);
+        await vault.delete(existingFile);
+      }
 
-  // Templaterで直接出力するためにtRに追加
-  if (typeof tR !== "undefined") {
-    tR += finalResult;
-    return ""; // tRに出力したので空文字を返す
+      // 新しいREADME.mdを作成
+      console.log(`Creating new ${OUTPUT_FILENAME}: ${readmePath}`);
+      await vault.create(readmePath, content);
+
+      console.log(`Successfully created ${OUTPUT_FILENAME}`);
+      return `Successfully created ${OUTPUT_FILENAME} at ${readmePath}`;
+    } catch (error) {
+      console.error(`Error creating ${OUTPUT_FILENAME}:`, error);
+      return `Error creating ${OUTPUT_FILENAME}: ${error.message}`;
+    }
+  };
+
+  // メイン実行
+  try {
+    // Templaterタグを除去してから処理
+    const cleanedContent = removeTemplaterTags(context.content);
+    console.log(
+      `Removed Templater tags, content length: ${cleanedContent.length}`
+    );
+
+    // 埋め込みを展開
+    const expandedResult = await expandEmbeds(cleanedContent, context.path);
+
+    // README.mdを作成
+    if (context.vault && context.app) {
+      const result = await createReadmeFile(
+        expandedResult,
+        context.vault,
+        context.app
+      );
+      console.log("Process completed:", result);
+
+      // Templaterの出力は空文字にする（README.mdに出力したため）
+      return "";
+    } else {
+      console.warn("Vault or app not available, returning expanded content");
+      return expandedResult;
+    }
+  } catch (error) {
+    console.error("Error in expandEmbeds:", error);
+    return `/* Error: ${error.message} */`;
   }
-
-  return finalResult;
 };
