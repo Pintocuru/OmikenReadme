@@ -1,12 +1,16 @@
-# おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa
+# おみくじ BOT コンフィグエディター OmikujiBot ConfigEditor
 
-最終更新日：<% tp.date.now('YYYY/MM/DD') %>
+最終更新日：2025/08/13
 
-![](../../template/intro/intro_11.md) ジェネレーター BOT です。
+配信者のためのコメントアプリ「わんコメ」で使用できる、 ジェネレーター BOT です。
 
-![](../../template/intro/intro_12.md) [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](https://pintocuru.booth.pm/items/5471598) ![](../../template/intro/intro_13.md)
+この内容は、BOOTH で配布している、 [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](https://pintocuru.booth.pm/items/5471598) の readme となります。
 
-![](../../template/intro/intro_21_hazimeni)
+## はじめに
+
+- [わんコメ](https://onecomme.com/) の機能を前提としたプラグインです。
+- 本ソフトウェアの利用は自己責任でお願いいたします。
+- 仕様は予告なく変更される場合があります。
 
 ## 1.このジェネレーターは何？
 
@@ -38,14 +42,19 @@
 
 ## 2.カスタマイズについて
 
-![](../../template/customization/customization_11_illust.md)(../../template/customization/customization_11.md)
+- おみくじの内容は、あなたの配信に合わせて**内容を自由にカスタマイズ**できます。
+- ただし、使用している**キャラクターには著作権があります**ので、原作やイラスト制作者の方々へのご配慮をお願いします。
+- イラストに関する詳細は、各配布サイトの利用規約をご確認ください。(../../template/customization/customization_11.md)
 
 ## 3.クレジット：イラストと音源について
 
 - **ゆっくり霊夢とゆっくり魔理沙のイラスト**
   [凪ぽんの素材置き場](https://nagipon-sozai.studio.site/)
 
-![](../../template/credits/credits_11_sozai.md)(../../template/credits/credits_11_.md)
+### 素材の取り扱いについて
+
+- イラスト素材・動画・音源の再配布は禁止
+- イラストや音源の利用については、各配布サイトの利用規約をご確認ください。(../../template/credits/credits_11_.md)
 
 ## バージョン情報
 
@@ -149,5 +158,3 @@
 作成者：せすじピンとしてます @pintocuru
 
 [Twitter](https://twitter.com/pintocuru) | [YouTube](https://www.youtube.com/@pintocuru)
-
-<%* await tp.user.expandEmbeds(tp) %>

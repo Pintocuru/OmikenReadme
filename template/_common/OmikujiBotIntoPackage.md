@@ -1,5 +1,3 @@
-このテンプレートは、下記のパッケージの内容を含みます。
-
 - [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](https://pintocuru.booth.pm/items/5471598)
 - [おみくじ BOT ずんだもん OmikujiBot Zundamon](https://pintocuru.booth.pm/items/6053855)
 - [おみくじ BOT 高飛車な四国めたん OmikujiBot Shikoku Metan](https://pintocuru.booth.pm/items/6058829)

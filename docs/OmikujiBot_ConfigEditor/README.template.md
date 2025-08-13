@@ -1,10 +1,10 @@
-# おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa
+# おみくじ BOT コンフィグエディター OmikujiBot ConfigEditor
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
-![](../../template/intro/intro_11.md) ジェネレーター BOT です。
+![](../../template/intro/intro_11.md) ジェネレーター BOT 「おみくじ BOT」のデータを編集できるアプリです。
 
-![](../../template/intro/intro_12.md) [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](https://pintocuru.booth.pm/items/5471598) ![](../../template/intro/intro_13.md)
+![](../../template/intro/intro_12.md) 下記に同梱している「コンフィグエディター」![](../../template/intro/intro_13.md)
 
 ![](../../template/intro/intro_21_hazimeni)
 
@@ -38,14 +38,14 @@
 
 ## 2.カスタマイズについて
 
-![](../../template/customization/customization_11_illust.md)(../../template/customization/customization_11.md)
+![](../../template/customization/customization_11_illust.md)
 
 ## 3.クレジット：イラストと音源について
 
 - **ゆっくり霊夢とゆっくり魔理沙のイラスト**
   [凪ぽんの素材置き場](https://nagipon-sozai.studio.site/)
 
-![](../../template/credits/credits_11_sozai.md)(../../template/credits/credits_11_.md)
+![](../../template/credits/credits_11_sozai.md)
 
 ## バージョン情報
 

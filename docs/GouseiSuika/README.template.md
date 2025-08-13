@@ -1,18 +1,16 @@
-# おみくじ BOT OmikujiBot for わんコメ
+# おみくじ BOT OmikujiBot for わんコメ のテンプレート
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
+＊この内容は、テンプレートです＊
+
 ![](../../template/intro/intro_11.md) ジェネレーター BOT です。
 
-このテンプレートは、下記のパッケージの内容を含みます。
-
-![OmikujiBotIntoPackage](../../template/_common/OmikujiBotIntoPackage.md)
+![](../../template/intro/intro_12.md) 下記に同梱している「コンフィグエディター」![](../../template/intro/intro_13.md)
 
 ![](../../template/intro/intro_21_hazimeni)
 
 ## このジェネレーターは何？
-
-![](images/1-1.avif)
 
 ### 🎯わんコメに BOT 機能を付与するジェネレーター
 
@@ -21,8 +19,6 @@
 - 初見さん (初めてのコメント) や、通算 100 回目のコメントなど、特定の条件で発動し、配信画面に表示する機能
 
 ### ✨【おみくじ BOT OmikujiBot】で、できること
-
-![](images/1-2.avif)
 
 1. **コメントに反応する【おみくじシステム】**
    - `おみくじ` とコメントすると、今日の運勢をランダムで表示

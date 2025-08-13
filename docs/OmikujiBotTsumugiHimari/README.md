@@ -1,51 +1,47 @@
-# おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa
+# どこでもドラちゃん Bot OmikujiBot 5percent_Dora
 
-最終更新日：<% tp.date.now('YYYY/MM/DD') %>
+最終更新日：2025/08/12
 
-![](../../template/intro/intro_11.md) ジェネレーター BOT です。
+配信者のためのコメントアプリ「わんコメ」で使用できる、ジェネレーター BOT です。
 
-![](../../template/intro/intro_12.md) [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](https://pintocuru.booth.pm/items/5471598) ![](../../template/intro/intro_13.md)
+この内容は、BOOTH で配布している、 [どこでもドラちゃん Bot OmikujiBot 5percent_Dora](https://pintocuru.booth.pm/items/7291931) の readme となります。
 
-![](../../template/intro/intro_21_hazimeni)
+## はじめに
+
+- [わんコメ](https://onecomme.com/) の機能を前提としたプラグインです。
+- 本ソフトウェアの利用は自己責任でお願いいたします。
+- 仕様は予告なく変更される場合があります。
 
 ## 1.このジェネレーターは何？
 
-### ゆっくり霊夢と魔理沙がリスナーを歓迎してくれるジェネレーター
+### 「ドラちゃん」を名乗るキャラクターが「ひみつ道具」をランダムに出してくれるジェネレーターです
 
-- わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、ゆっくり霊夢と魔理沙が楽しく出演するジェネレーターです。
+- わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、コメントや 30 分ごとに自動でつぶやいてくれる、ジェネレーター BOT です。
 - 導入方法や、基本的な使い方は [README](../OmikujiBot/README.md) をご覧ください。
 
-### ゆっくり霊夢のキャラクター設定
+![](images/default.webp)
 
-![](images/reimu.webp)
+## 2.「おみくじ BOT 用 WordParty」導入のススメ
 
-このジェネレーターでは、ゆっくり霊夢を以下のようなキャラクターとして登場させています。
+- このおみくじの内容は、[おみくじ BOT 用 WordParty](https://booth.pm/ja/items/6048048) と一緒に使うことを想定して作成されています。
+- WordParty は、コメントにあるワードをきっかけに演出を表示するテンプレートです。おみくじ BOT は、このきっかけを自在に指定し、演出を表示させます。
+- WordParty に関する詳細は [コメントによる演出 - WordParty](https://onecomme.com/docs/feature/wordparty) を、導入方法は [おみくじ BOT 用 WordParty README](https://github.com/Pintocuru/OmikenReadme/blob/main/docs/OmikenWordParty/README.md) をご覧ください。
 
-- 誰にでも笑顔で接する親しみやすい存在
-- ただし初見詐欺テメーはダメだ
-- じゃんけんは圧倒的に強いが、負けても楽しそうに振る舞う
+## 3.カスタマイズについて
 
-### ゆっくり魔理沙のキャラクター設定
+- おみくじの内容は、あなたの配信に合わせて**内容を自由にカスタマイズ**できます。
+- カスタマイズは、
+- ただし、内容を変更したことによる責任は負いません。
 
-![](images/marisa.webp)
-
-ゆっくり魔理沙は、ゆっくり霊夢の相棒のような立ち位置で登場します。
-
-- 登場頻度は霊夢よりも低め（約 20%）
-- リスナーには気さくに話しかける
-- 「初見詐欺」にはノリの良いツッコミを入れる
-- じゃんけんは本気で勝ちにいくタイプで、負けると悔しがる
-
-## 2.カスタマイズについて
-
-![](../../template/customization/customization_11_illust.md)(../../template/customization/customization_11.md)
-
-## 3.クレジット：イラストと音源について
+## 4.クレジット：イラストと音源について
 
 - **ゆっくり霊夢とゆっくり魔理沙のイラスト**
   [凪ぽんの素材置き場](https://nagipon-sozai.studio.site/)
 
-![](../../template/credits/credits_11_sozai.md)(../../template/credits/credits_11_.md)
+### 素材の取り扱いについて
+
+- イラスト素材・動画・音源の再配布は禁止
+- イラストや音源の利用については、各配布サイトの利用規約をご確認ください。
 
 ## バージョン情報
 
@@ -149,5 +145,3 @@
 作成者：せすじピンとしてます @pintocuru
 
 [Twitter](https://twitter.com/pintocuru) | [YouTube](https://www.youtube.com/@pintocuru)
-
-<%* await tp.user.expandEmbeds(tp) %>

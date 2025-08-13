@@ -2,13 +2,11 @@
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
-![](../../template/intro/intro_11.md) ジェネレーター BOT です。
+![[../../template/intro/intro_11]] ジェネレーター BOT です。
 
-このテンプレートは、下記のパッケージの内容を含みます。
+![[OmikujiBotIntoPackage]](../../template/_common/OmikujiBotIntoPackage.md)
 
-![OmikujiBotIntoPackage](../../template/_common/OmikujiBotIntoPackage.md)
-
-![](../../template/intro/intro_21_hazimeni)
+![[../../template/intro/intro_21_hazimeni]]
 
 ## このジェネレーターは何？
 

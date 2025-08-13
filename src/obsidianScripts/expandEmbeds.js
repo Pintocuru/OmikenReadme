@@ -45,9 +45,18 @@ module.exports = async (tp) => {
     },
 
     findFile: (vault, basePath, linkPath) => {
-      const resolved =
-        utils.resolvePath(utils.dirname(basePath), linkPath) + CONFIG.EXT;
+      // 既に .md で終わっている場合はそのまま使用
+      let resolved = utils.resolvePath(utils.dirname(basePath), linkPath);
+      if (!resolved.endsWith(CONFIG.EXT)) {
+        resolved += CONFIG.EXT;
+      }
+
       const candidates = [resolved, linkPath];
+
+      // .mdが付いていない場合の候補も追加
+      if (!linkPath.endsWith(CONFIG.EXT)) {
+        candidates.push(linkPath + CONFIG.EXT);
+      }
 
       for (const path of candidates) {
         const file = vault.getAbstractFileByPath(path);
@@ -99,8 +108,9 @@ module.exports = async (tp) => {
         return "";
       }
 
-      // matchAll を使用して安全にマッチング
-      const embedRegex = /!\[\[([^\]]+)\]\]/g;
+      // 両方の記法にマッチする統合正規表現
+      // ![[link]] または ![title](path) または ![](path)
+      const embedRegex = /(?:!\[\[([^\]]+)\]\]|!\[([^\]]*)\]\(([^)]+)\))/g;
       const matches = [...content.matchAll(embedRegex)];
 
       if (matches.length === 0) {
@@ -119,18 +129,38 @@ module.exports = async (tp) => {
         result += content.slice(lastIndex, match.index);
         lastIndex = match.index + match[0].length;
 
-        const link = match[1].trim();
-        const linkPath = link.includes(".") ? link : `${link}${CONFIG.EXT}`;
+        let linkPath;
+        let embedType;
+
+        if (match[1]) {
+          // ![[link]] 形式
+          const link = match[1].trim();
+          linkPath = link.includes(".") ? link : `${link}${CONFIG.EXT}`;
+          embedType = "wikilink";
+        } else if (match[3]) {
+          // ![title](path) または ![](path) 形式
+          linkPath = match[3].trim();
+          // 拡張子がない場合は .md を追加
+          if (!linkPath.includes(".")) {
+            linkPath += CONFIG.EXT;
+          }
+          embedType = "markdown";
+        }
+
+        if (!linkPath) {
+          result += match[0];
+          continue;
+        }
 
         try {
-          console.log(`Processing embed: ${link}`);
+          console.log(`Processing ${embedType} embed: ${linkPath}`);
           const file = utils.findFile(vault, basePath, linkPath);
 
           if (file?.extension === "md") {
             // 自己参照チェック
             if (file.path === basePath) {
               console.warn(`Skipping self-reference: ${file.path}`);
-              result += `<!-- Self-reference skipped: ${link} -->`;
+              result += `<!-- Self-reference skipped: ${linkPath} -->`;
               continue;
             }
 
@@ -145,7 +175,10 @@ module.exports = async (tp) => {
             continue;
           }
         } catch (error) {
-          console.warn(`Error processing embed [[${linkPath}]]:`, error);
+          console.warn(
+            `Error processing ${embedType} embed [[${linkPath}]]:`,
+            error
+          );
         }
 
         // 展開できない場合は元の記法を保持
