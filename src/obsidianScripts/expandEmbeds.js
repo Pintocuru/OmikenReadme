@@ -1,253 +1,233 @@
 // .obsidian/scripts/expandEmbeds.js
 module.exports = async (tp) => {
-  // 設定
-  const MAX_RECURSION_DEPTH = 5;
-  const DEFAULT_EXTENSION = ".md";
-  const OUTPUT_FILENAME = "README.md";
+  // === 設定 ===
+  const CONFIG = {
+    MAX_DEPTH: 5,
+    EXT: ".md",
+    OUTPUT: "README.md",
+  };
 
-  // コンテキスト取得
-  const getContentContext = async (input) => {
-    if (!input) return null;
+  // === ユーティリティ ===
+  const utils = {
+    dirname: (path) => {
+      if (!path) return "";
+      const lastSlash = path.lastIndexOf("/");
+      return lastSlash === -1 ? "" : path.slice(0, lastSlash);
+    },
 
-    // Templaterのtpオブジェクトの場合
-    if (input.app && input.file) {
-      // 現在のアクティブファイルを取得
-      const currentFile = input.app.workspace.getActiveFile();
-      const content = currentFile
-        ? await input.app.vault.cachedRead(currentFile)
-        : "";
+    resolvePath: (base, rel) => {
+      if (!base || !rel) return rel || "";
+      if (rel.startsWith("/")) return rel.slice(1);
 
-      console.log("Processing file:", currentFile?.path);
+      const result = [...base.split("/").filter(Boolean)];
+      rel
+        .split("/")
+        .filter(Boolean)
+        .forEach((part) => {
+          if (part === "..") result.pop();
+          else if (part !== ".") result.push(part);
+        });
+      return result.join("/");
+    },
 
+    getContext: async (tp) => {
+      if (!tp?.app?.workspace) return null;
+      const file = tp.app.workspace.getActiveFile();
+      const content = file ? await tp.app.vault.cachedRead(file) : "";
+      console.log("Processing:", file?.path);
       return {
-        vault: input.app.vault,
-        content: content,
-        path: currentFile ? currentFile.path : "",
-        app: input.app,
-        tp: input, // Templaterオブジェクトを保持
+        vault: tp.app.vault,
+        content,
+        path: file?.path || "",
+        app: tp.app,
+        tp,
       };
-    }
+    },
 
-    return null;
-  };
+    findFile: (vault, basePath, linkPath) => {
+      const resolved =
+        utils.resolvePath(utils.dirname(basePath), linkPath) + CONFIG.EXT;
+      const candidates = [resolved, linkPath];
 
-  const context = await getContentContext(tp);
-  if (!context) return "/* expandEmbeds: Invalid input */";
-
-  // ヘルパー関数
-  const dirname = (path) => {
-    if (typeof path !== "string" || !path) return "";
-    const lastSlash = path.lastIndexOf("/");
-    return lastSlash === -1 ? "" : path.slice(0, lastSlash);
-  };
-
-  const resolvePath = (basePath, relativePath) => {
-    if (!basePath || typeof basePath !== "string") return relativePath;
-    if (!relativePath || typeof relativePath !== "string") return "";
-    if (relativePath.startsWith("/")) return relativePath.slice(1);
-
-    const baseParts = basePath.split("/").filter(Boolean);
-    const relParts = relativePath.split("/").filter(Boolean);
-
-    const result = [];
-    baseParts.forEach((part) => result.push(part));
-
-    relParts.forEach((part) => {
-      if (part === "..") {
-        if (result.length > 0) result.pop();
-      } else if (part !== ".") {
-        result.push(part);
+      for (const path of candidates) {
+        const file = vault.getAbstractFileByPath(path);
+        if (file) {
+          console.log(`Found file: ${path}`);
+          return file;
+        }
       }
-    });
-
-    return result.join("/");
+      console.warn(`File not found: ${linkPath}`);
+      return null;
+    },
   };
 
-  // Templaterタグを処理する関数（expandEmbeds専用タグのみ除去）
-  const removeExpandEmbedsTag = (content) => {
-    // expandEmbeds呼び出しのタグのみ除去
-    const expandEmbedsRegex =
-      /<%\*\s*await\s+tp\.user\.expandEmbeds\(tp\)\s*%>/g;
-    return content.replace(expandEmbedsRegex, "").trim();
-  };
+  // === プロセッサー ===
+  const processors = {
+    removeExpandTag: (content) => {
+      const regex = /<%\*\s*await\s+tp\.user\.expandEmbeds\(tp\)\s*%>/g;
+      return content.replace(regex, "").trim();
+    },
 
-  // Templaterタグを実際に評価・変換する関数
-  const processTemplaterTags = async (content, tpObject) => {
-    try {
-      // 日付タグの処理
-      const dateRegex = /<%\s*tp\.date\.now\(['"]([^'"]+)['"]\)\s*%>/g;
-      let processedContent = content;
+    processTemplaterTags: async (content, tpObj) => {
+      try {
+        const dateRegex = /<%\s*tp\.date\.now\(['"]([^'"]+)['"]\)\s*%>/g;
+        let result = content;
 
-      let match;
-      while ((match = dateRegex.exec(content)) !== null) {
-        const format = match[1];
-        const currentDate = tpObject.date.now(format);
-        processedContent = processedContent.replace(match[0], currentDate);
-        console.log(`Converted date tag: ${match[0]} → ${currentDate}`);
+        // matchAll を使用して安全に処理
+        const matches = [...content.matchAll(dateRegex)];
+        for (const match of matches) {
+          const date = tpObj.date.now(match[1]);
+          result = result.replace(match[0], date);
+          console.log(`Date tag converted: ${match[0]} → ${date}`);
+        }
+
+        return result;
+      } catch (error) {
+        console.warn("Error processing Templater tags:", error);
+        return content;
+      }
+    },
+
+    expandEmbeds: async function (content, basePath, vault, depth = 0) {
+      if (depth > CONFIG.MAX_DEPTH) {
+        console.warn(`Max recursion depth ${CONFIG.MAX_DEPTH} reached`);
+        return content;
       }
 
-      // 他のTemplaterタグも同様に処理可能（必要に応じて拡張）
-      // 例: <% tp.file.title %>, <% tp.date.yesterday() %> など
+      if (typeof content !== "string") {
+        console.warn("Content is not a string");
+        return "";
+      }
 
-      return processedContent;
-    } catch (error) {
-      console.warn("Error processing Templater tags:", error);
-      return content;
-    }
-  };
+      // matchAll を使用して安全にマッチング
+      const embedRegex = /!\[\[([^\]]+)\]\]/g;
+      const matches = [...content.matchAll(embedRegex)];
 
-  // メイン処理
-  const expandEmbeds = async (content, basePath, depth = 0) => {
-    if (depth > MAX_RECURSION_DEPTH) {
-      console.warn(`Maximum recursion depth (${MAX_RECURSION_DEPTH}) reached`);
-      return content;
-    }
+      if (matches.length === 0) {
+        return content;
+      }
 
-    if (typeof content !== "string") {
-      console.warn("Content is not a string:", typeof content);
-      return "";
-    }
+      let result = "";
+      let lastIndex = 0;
 
-    // 埋め込み展開処理
-    const embedRegex = /!\[\[([^\]]+)\]\]/g;
-    let output = "";
-    let lastIndex = 0;
-    let match;
+      if (depth === 0) {
+        console.log(`Starting embed expansion, found ${matches.length} embeds`);
+      }
 
-    if (depth === 0) {
-      console.log(
-        `Starting embed expansion, content length: ${content.length}`
-      );
-    }
+      for (const match of matches) {
+        // マッチ前のテキストを追加
+        result += content.slice(lastIndex, match.index);
+        lastIndex = match.index + match[0].length;
 
-    while ((match = embedRegex.exec(content)) !== null) {
-      output += content.slice(lastIndex, match.index);
-      lastIndex = embedRegex.lastIndex;
+        const link = match[1].trim();
+        const linkPath = link.includes(".") ? link : `${link}${CONFIG.EXT}`;
 
-      const link = match[1].trim();
-      let linkPath = link.includes(".") ? link : `${link}${DEFAULT_EXTENSION}`;
-
-      if (context.vault && basePath) {
         try {
           console.log(`Processing embed: ${link}`);
+          const file = utils.findFile(vault, basePath, linkPath);
 
-          const resolvedPath =
-            resolvePath(dirname(basePath), linkPath) + DEFAULT_EXTENSION;
-
-          const pathCandidates = [
-            resolvedPath,
-            linkPath,
-            linkPath.startsWith("../") ? linkPath : resolvedPath,
-          ];
-
-          let linkedFile = null;
-          for (const candidate of pathCandidates) {
-            linkedFile = context.vault.getAbstractFileByPath(candidate);
-            if (linkedFile) {
-              console.log(`Found file: ${candidate}`);
-              break;
+          if (file?.extension === "md") {
+            // 自己参照チェック
+            if (file.path === basePath) {
+              console.warn(`Skipping self-reference: ${file.path}`);
+              result += `<!-- Self-reference skipped: ${link} -->`;
+              continue;
             }
-          }
 
-          if (linkedFile && linkedFile.extension === "md") {
-            const linkedContent = await context.vault.cachedRead(linkedFile);
-
-            // 無限ループ防止：同じファイルを再帰処理しない
-            if (linkedFile.path !== basePath) {
-              const expandedContent = await expandEmbeds(
-                linkedContent,
-                linkedFile.path,
-                depth + 1
-              );
-              output += expandedContent;
-            } else {
-              console.warn(`Skipping self-reference: ${linkedFile.path}`);
-              output += `<!-- Self-reference skipped: ${link} -->`;
-            }
+            const fileContent = await vault.cachedRead(file);
+            const expanded = await this.expandEmbeds(
+              fileContent,
+              file.path,
+              vault,
+              depth + 1
+            );
+            result += expanded;
             continue;
-          } else {
-            console.warn(`File not found: ${link}`);
           }
         } catch (error) {
           console.warn(`Error processing embed [[${linkPath}]]:`, error);
         }
+
+        // 展開できない場合は元の記法を保持
+        result += match[0];
       }
 
-      // 展開できない場合は元の埋め込み記法を保持
-      output += match[0];
-    }
-
-    output += content.slice(lastIndex);
-    return output;
+      // 残りのテキストを追加
+      result += content.slice(lastIndex);
+      return result;
+    },
   };
 
-  // README.md作成・更新関数
-  const createReadmeFile = async (content, vault, app) => {
-    try {
-      // 現在のファイルのディレクトリを取得
-      const currentFile = app.workspace.getActiveFile();
-      const currentDir = currentFile ? dirname(currentFile.path) : "";
-      const readmePath = currentDir
-        ? `${currentDir}/${OUTPUT_FILENAME}`
-        : OUTPUT_FILENAME;
+  // === ファイル管理 ===
+  const fileManager = {
+    createReadme: async (content, vault, app) => {
+      try {
+        const currentFile = app.workspace.getActiveFile();
+        const dir = currentFile ? utils.dirname(currentFile.path) : "";
+        const path = dir ? `${dir}/${CONFIG.OUTPUT}` : CONFIG.OUTPUT;
 
-      // 既存のREADME.mdがあるかチェック
-      const existingFile = vault.getAbstractFileByPath(readmePath);
+        // 既存ファイルを削除
+        const existing = vault.getAbstractFileByPath(path);
+        if (existing) {
+          console.log(`Deleting existing ${CONFIG.OUTPUT}: ${path}`);
+          await vault.delete(existing);
+        }
 
-      if (existingFile) {
-        console.log(`Deleting existing ${OUTPUT_FILENAME}: ${readmePath}`);
-        await vault.delete(existingFile);
+        // 新規作成
+        console.log(`Creating new ${CONFIG.OUTPUT}: ${path}`);
+        await vault.create(path, content);
+
+        return `Successfully created ${CONFIG.OUTPUT} at ${path}`;
+      } catch (error) {
+        console.error(`Error creating ${CONFIG.OUTPUT}:`, error);
+        throw error;
       }
-
-      // 新しいREADME.mdを作成
-      console.log(`Creating new ${OUTPUT_FILENAME}: ${readmePath}`);
-      await vault.create(readmePath, content);
-
-      console.log(`Successfully created ${OUTPUT_FILENAME}`);
-      return `Successfully created ${OUTPUT_FILENAME} at ${readmePath}`;
-    } catch (error) {
-      console.error(`Error creating ${OUTPUT_FILENAME}:`, error);
-      return `Error creating ${OUTPUT_FILENAME}: ${error.message}`;
-    }
+    },
   };
 
-  // メイン実行
+  // === メイン処理 ===
   try {
-    // 1. expandEmbedsタグのみ除去（他のTemplaterタグは保持）
-    const contentWithoutExpandTag = removeExpandEmbedsTag(context.content);
-    console.log(
-      `Removed expandEmbeds tag, content length: ${contentWithoutExpandTag.length}`
-    );
+    const context = await utils.getContext(tp);
+    if (!context) {
+      return "/* expandEmbeds: Invalid input */";
+    }
 
-    // 2. Templaterタグを変換（日付など）
-    const processedContent = await processTemplaterTags(
-      contentWithoutExpandTag,
+    console.log(`Content length: ${context.content.length}`);
+
+    // 1. expandEmbedsタグを除去
+    const withoutTag = processors.removeExpandTag(context.content);
+    console.log(`After tag removal: ${withoutTag.length}`);
+
+    // 2. Templaterタグを処理
+    const processed = await processors.processTemplaterTags(
+      withoutTag,
       context.tp
     );
-    console.log(
-      `Processed Templater tags, content length: ${processedContent.length}`
-    );
+    console.log(`After Templater processing: ${processed.length}`);
 
     // 3. 埋め込みを展開
-    const expandedResult = await expandEmbeds(processedContent, context.path);
+    const expanded = await processors.expandEmbeds(
+      processed,
+      context.path,
+      context.vault
+    );
+    console.log(`After expansion: ${expanded.length}`);
 
-    // 4. README.mdを作成
+    // 4. README作成
     if (context.vault && context.app) {
-      const result = await createReadmeFile(
-        expandedResult,
+      const result = await fileManager.createReadme(
+        expanded,
         context.vault,
         context.app
       );
       console.log("Process completed:", result);
 
-      // 6. 完了通知を表示
+      // 完了通知
       new Notice("✅ README.md の生成が完了しました！", 3000);
-
-      // 5. 元ファイルは変更しない、Templaterの出力も空文字
       return "";
     } else {
-      console.warn("Vault or app not available, returning expanded content");
-      return expandedResult;
+      console.warn("Vault or app not available");
+      return expanded;
     }
   } catch (error) {
     console.error("Error in expandEmbeds:", error);
