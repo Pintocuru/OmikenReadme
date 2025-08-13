@@ -6,7 +6,7 @@
 
 このテンプレートは、下記のパッケージの内容を含みます。
 
-![OmikujiBotIntoPackage](../../template/_common/OmikujiBotIntoPackage.md)
+![OmikujiBotPackageBOOTH](../../template/_common/OmikujiBotPackageBOOTH.md)
 
 ![](../../template/intro/intro_21_hazimeni)
 
@@ -45,13 +45,17 @@
    - SNS やファンクラブの告知も自動投稿
    - 投稿間隔も設定可能で、時報代わりにも使えます
 
-## 導入方法
+## インストール方法
 
-テンプレートの導入は、[テンプレートの導入方法](../install/readme_install.md) を御覧ください。
+テンプレートのインストールは、[テンプレートの導入方法](../install/readme_install.md) を御覧ください。
+
+![Installation_41_OmikujiWordParty](../../template/installation/Installation_41_OmikujiWordParty.md)
 
 ## つかいかた
 
-パッケージによって、使い方は様々です。詳しくは、下記の Readme をご覧ください。
+パッケージによって、利用シーンは様々です。詳しくは、下記の Readme をご覧ください。
+
+![OmikujiBotPackageReadme](../../template/_common/OmikujiBotPackageReadme.md)
 
 ## カスタマイズ
 

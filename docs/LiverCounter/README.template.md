@@ -4,7 +4,7 @@
 
 ![[../../template/intro/intro_11]] ジェネレーター BOT です。
 
-![[OmikujiBotIntoPackage]](../../template/_common/OmikujiBotIntoPackage.md)
+![[../../template/_common/OmikujiBotPackageBOOTH]](../../template/_common/OmikujiBotIntoPackage.md)
 
 ![[../../template/intro/intro_21_hazimeni]]
 

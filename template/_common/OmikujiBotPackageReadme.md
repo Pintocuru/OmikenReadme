@@ -1,0 +1,5 @@
+- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa README](../../docs/OmikujiBotReimuMarisa/README.md)
+- [おみくじ BOT みんなのずんだもん OmikujiBot Everyone Zunda README](../../docs/OmikujiBotEveryoneZunda/README.md)
+- [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan README](../../docs/OmikujiBotDivaMetan/README.md)
+- [どこでもドラちゃん Bot OmikujiBot 5percent_Dora README](../../docs/OmikujiBot5percent_Dora/README.md)
+- [スイカ 🍉 ジェネレーター Gousei Suika Generator README](../../docs/GouseiSuika/README.md)
