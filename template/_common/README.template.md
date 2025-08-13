@@ -4,7 +4,7 @@
 
 ＊この内容は、テンプレートです＊
 
-![](../../template/intro/intro_11.md) ジェネレーター BOT です。
+![[../intro/intro_11]] ジェネレーター BOT です。
 
 ![](../../template/intro/intro_12.md) 下記に同梱している「コンフィグエディター」![](../../template/intro/intro_13.md)
 
