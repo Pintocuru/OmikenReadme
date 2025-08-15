@@ -13,7 +13,7 @@
 ### ゆっくり霊夢と魔理沙がリスナーを歓迎してくれるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、ゆっくり霊夢と魔理沙が楽しく出演するテンプレートです。
-- インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot for わんコメ README](../OmikujiBot/README.md) をご覧ください。
+![features_21_](../../template/features/features_21_.md)
 
 ### ゆっくり霊夢のキャラクター設定
 
@@ -35,6 +35,12 @@
 - リスナーには気さくに話しかける
 - 「初見詐欺」にはノリの良いツッコミを入れる
 - じゃんけんは本気で勝ちにいくタイプで、負けると悔しがる
+
+## インストール方法
+
+![Installation_41_GotoTemplate](../../template/installation/Installation_41_GotoTemplate.md)
+
+![Installation_42_OmikujiWordParty](../../template/installation/Installation_42_OmikujiWordParty.md)
 
 ## つかいかた
 

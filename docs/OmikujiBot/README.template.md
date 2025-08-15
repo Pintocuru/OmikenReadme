@@ -47,9 +47,9 @@
 
 ## インストール方法
 
-テンプレートのインストールは、[テンプレートの導入方法](../install/readme_install.md) を御覧ください。
+![Installation_41_GotoTemplate](../../template/installation/Installation_41_GotoTemplate.md)
 
-![Installation_41_OmikujiWordParty](../../template/installation/Installation_41_OmikujiWordParty.md)
+![Installation_42_OmikujiWordParty](../../template/installation/Installation_42_OmikujiWordParty.md)
 
 ## つかいかた
 
