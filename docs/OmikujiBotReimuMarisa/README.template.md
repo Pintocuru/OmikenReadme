@@ -13,7 +13,7 @@
 ### ゆっくり霊夢と魔理沙がリスナーを歓迎してくれるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、ゆっくり霊夢と魔理沙が楽しく出演するテンプレートです。
-![features_21_](../../template/features/features_21_.md)
+![features_21_InfoOmikujiBotReadMe](../../template/features/features_21_InfoOmikujiBotReadMe.md)
 
 ### ゆっくり霊夢のキャラクター設定
 
