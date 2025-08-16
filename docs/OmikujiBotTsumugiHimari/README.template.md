@@ -60,7 +60,7 @@
 
 ## カスタマイズ
 
-![](/template/customization/customization_11_illust.md)(../../template/customization/customization_11.md)
+![](/template/customization/customization_11_illust.md)
 
 ## クレジット：イラストと音源について
 
@@ -74,9 +74,10 @@
 
 ## バージョン情報
 
-### ver.250816
+### ver.250816(予定)
 
 - 「おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari」としてリリース。
+- まだしてないよ。
 
 ![credits_99_sesupin](../../template/credits/credits_99_sesupin.md)
 
