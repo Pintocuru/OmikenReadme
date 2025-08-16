@@ -12,7 +12,7 @@
 
 ### めたんがリスナーを歓迎してくれるジェネレーター
 
-- わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、めたんが上から目線で対応するテンプレートです。
+- わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、四国めたんが上から目線で対応するテンプレートです。
 ![features_21_InfoOmikujiBotReadMe](../../template/features/features_21_InfoOmikujiBotReadMe.md)
 
 ### 四国めたん のキャラクター設定

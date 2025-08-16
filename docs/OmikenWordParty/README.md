@@ -1,49 +1,69 @@
 # おみくじ BOT 用 WordParty
 
-最終更新日：2025/08/10
+最終更新日：2025/08/16
 
-配信者のためのコメントアプリ「わんコメ」で使用できる、プラグイン です。
+配信者のためのコメントアプリ「わんコメ」で使用できる、 WordParty テンプレート です。
 
-この内容は、BOOTH で配布している、 [おみくじBOT用WordParty](https://pintocuru.booth.pm/items/6048048) の readme となります。
+- このテンプレートは、下記のパッケージで使用するほか、独自に使用できます。
+- それぞれ、最新版で使用できます。バージョンが古い場合、正常に機能しない可能性があります。
+- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](https://pintocuru.booth.pm/items/5471598)
+- [おみくじ BOT ずんだもん OmikujiBot Zundamon](https://pintocuru.booth.pm/items/6053855)
+- [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan](https://pintocuru.booth.pm/items/6058829)
+- おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari
+- [どこでもドラちゃん Bot OmikujiBot 5percent_Dora](https://pintocuru.booth.pm/items/7291931)
+- [スイカ 🍉 ジェネレーター Gousei Suika Generator](https://pintocuru.booth.pm/items/5813323)
 
 ## はじめに
 
-- [わんコメ](https://onecomme.com/) の機能を前提としたアプリです。
+- [わんコメ](https://onecomme.com/) の機能を前提としたソフトウェアです。
 - 本ソフトウェアの利用は自己責任でお願いいたします。
 - 仕様は予告なく変更される場合があります。
 
-## 1.この WordParty ってなに？
+## このテンプレートは何？
 
 ![](images/240824_01.jpg)
 
-### 🎯1-1.ピンとくる企画で制作した「おみくじ BOT」と一緒に使う、WordParty です
+### おみくじ BOT を賑やかに演出する WordParty セット
 
-以下のプラグインと一緒に使います。
-
-- [初見判定ちゃん ゆっくり霊夢&ゆっくり魔理沙 First Counter reimu & marisa](https://pintocuru.booth.pm/items/5471598)
-	- v0.8 まで対応。v0.7 までのものは内容が異なるため、正常に機能しない可能性があります。
-- [スイカ🍉ジェネレーター Gousei Suika Generator + フルーツ占い](https://pintocuru.booth.pm/items/5813323)
-	- v0.4 まで対応。v0.31 以前のものは内容が異なるため、正常に機能しない可能性があります。
-
-おみくじ BOT プラグイン OmikenPlugin は、わんコメに BOT 機能を付与し、配信者とリスナーの双方向コミュニケーションを促進します。おみくじのランダム自動返信や、コメントによるミニゲーム機能を提供し、より魅力的な配信体験を実現します。
-
-### ✨ 1-2.WordParty って何かしら？
+- 【おみくじ BOT 用 WordParty】は、わんコメの機能 「[WordParty](https://onecomme.com/docs/feature/wordparty)」のセットです。
+- 通常の用途でも使用できますが、[おみくじ BOT](app://obsidian.md/OmikujiBot/README.md) と組み合わせることで、最大限の演出を引き出せます。
+	- 遅延を利用して、複数の演出を順番に再生 (WordParty の PRO 版機能「コネクター」のようなもの)
+	- おみくじの結果に応じて、ランダムに演出を発動
+	- 複数の演出を同時に発動し、画面全体を覆い尽くす ([スイカゲーム](https://suikagame.jp/) のような表現が可能です)
 
 ![](images/1-2.avif)
 
-- わんコメを通じて、主にコメントにあるワードをきっかけに演出を表示できます。
-- おみくじ BOT では、この演出を任意に起動し、演出として盛り上げます。
-- OBS への導入方法など、詳細は [コメントによる演出 - WordParty](https://onecomme.com/docs/feature/wordparty) を御覧ください。
+## インストール方法
 
-## 2.導入方法
+テンプレートのインストールは、[テンプレートの導入方法](../TemplateInstall/README.md) を御覧ください。
 
-テンプレートの導入は、[テンプレートの導入方法](../install/readme_install.md) の、「1-B. わんコメと連携する場合の導入方法」を御覧ください。
+## つかいかた・カスタマイズ
 
-## 3.よくある質問
+使い方は、既存の WordParty と同じです。[コメントによる演出 - WordParty](https://onecomme.com/docs/feature/wordparty) をご覧ください。
+
+カスタマイズも、「素材に関する注意事項」さえ守っていただければ、既存の WordParty と同じように扱えます。
+
+## よくある質問
+
+WordParty に関する内容は、[コメントによる演出 - WordParty](https://onecomme.com/docs/feature/wordparty) をご参照ください。
 
 わんコメの機能については [よくある質問](https://onecomme.com/docs/faq) または [導入ガイド](https://onecomme.com/docs/guide) をご参照ください。
 
-## 4.クレジット：イラストと音源について
+### 設定関連
+
+#### Q. パターンに入っている、「^」ってなに？「!」ってなに？
+
+A: **「^」は、前方一致と呼ばれる正規表現です。** 正規表現については、生成 AI に効いてみてください。「!」が付いているのは、コメントでその演出が意図せず出現しないようにする対処です。*ID で発動させればよかったよね？*
+
+#### Q. 一部 PRO 版の機能使っていない？大丈夫？
+
+A: 大丈夫だって製作者さんが言ってた！
+
+#### Q. 「初見さん参戦」は おみくじ BOT 以外で使ってもいい?
+
+A: わんコメの WordParty と一緒に使っていれば、どんな使い方でも OK です。それ以外の場所で使うのはご遠慮ください。
+
+## クレジット：イラストと音源について
 
 ### 🎵 効果音・BGM
 
@@ -100,14 +120,24 @@
 - **初見さん参戦**
 - **初見なのにモデレーターさん参戦**
 - **挑戦者が現れました**
-  せすじピンとしてます (自作)
+  Pintocuru (自作)
 
 ### 素材の取り扱いについて
 
-- イラスト素材・動画・音源の再配布は禁止 (せすじピンとしてます作製のものも含む)
+- イラスト素材・動画・音源の再配布は禁止
 - イラストや音源の利用については、各配布サイトの利用規約をご確認ください。
 
+### Pintocuru(この製作者) 作の素材の取り扱いについて
+
+- WordParty に入っているイラスト素材は、わんコメの WordParty でのみ使用できます。
+- 再配布は禁止です。
+
 ## バージョン情報
+
+### ver.250816
+
+- 「ドラちゃん」に一部素材追加
+- ReadMe を一新。
 
 ### 25/08/10
 
