@@ -161,10 +161,6 @@
 
 - 初版
 
----
-
-作成者：せすじピンとしてます @pintocuru
-
-[Twitter](https://twitter.com/pintocuru) | [YouTube](https://www.youtube.com/@pintocuru)
+![credits_99_sesupin](../../template/credits/credits_99_sesupin.md)
 
 <%* await tp.user.expandEmbeds(tp) %>

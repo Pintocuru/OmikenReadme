@@ -42,11 +42,12 @@
 
 ![customization_12_illust](../../template/customization/customization_12_illust.md)
 
+## バージョン情報
 
----
+### v0.1.0 25/08/16
 
-作成者：せすじピンとしてます @pintocuru
+- 「[おみくじ BOT](../OmikujiBot/README.md)」を利用して、ガチャ配信向け BOT として新規公開しました
 
-[Twitter](https://twitter.com/pintocuru) | [YouTube](https://www.youtube.com/@pintocuru)
+![credits_99_sesupin](../../template/credits/credits_99_sesupin.md)
 
 <%* await tp.user.expandEmbeds(tp) %>
