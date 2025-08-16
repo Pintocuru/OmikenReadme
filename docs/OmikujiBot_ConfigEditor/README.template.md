@@ -2,7 +2,7 @@
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
-![](../../template/intro/intro_11.md) ジェネレーター BOT 「おみくじ BOT」のデータを編集できるアプリです。
+![](../../template/intro/intro_11.md) ジェネレーター BOT 「おみくじ BOT」のデータを編集できるアプリケーションです。
 
 ![](../../template/intro/intro_12.md) 下記に同梱している「コンフィグエディター」![](../../template/intro/intro_13.md)
 

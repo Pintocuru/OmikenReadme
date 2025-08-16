@@ -4,7 +4,7 @@
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレート です。
 
-この内容は、BOOTH で配布している、 [おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari]()の readme となります。
+この内容は、BOOTH で配布している、 [おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari]() の readme となります。
 
 ## はじめに
 

@@ -2,7 +2,7 @@
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
-![](../../template/intro/intro_11.md) ジェネレーター BOT です。
+![](../../template/intro/intro_11.md) BOTソフトウェア です。
 
 このテンプレートは、下記のパッケージの内容を含みます。
 

@@ -2,7 +2,7 @@
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
-![](../../template/intro/intro_11.md) ジェネレーター BOT です。
+![](../../template/intro/intro_11.md) テンプレートです。
 
 ![](../../template/intro/intro_12.md) [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan](https://pintocuru.booth.pm/items/6058829)![](../../template/intro/intro_13.md)
 
