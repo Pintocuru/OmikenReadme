@@ -1,18 +1,19 @@
-# おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa
+# おみくじ BOT みんなのずんだもん OmikujiBot EveryoneZunda
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
 ![](../../template/intro/intro_11.md) ジェネレーター BOT です。
 
-![](../../template/intro/intro_12.md) [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](https://pintocuru.booth.pm/items/5471598) ![](../../template/intro/intro_13.md)
+![](../../template/intro/intro_12.md) [おみくじ BOT みんなのずんだもん OmikujiBot EveryoneZunda](https://pintocuru.booth.pm/items/6053855)![](../../template/intro/intro_13.md)
 
 ![](../../template/intro/intro_21_hazimeni)
 
 ## 1.このテンプレートは何？
 
-### ゆっくり霊夢と魔理沙がリスナーを歓迎してくれるジェネレーター
+### ずんだもんがリスナーを歓迎してくれるジェネレーター
 
-- わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、ゆっくり霊夢と魔理沙が楽しく出演するテンプレートです。
+- わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、ずんだもんが懸命に頑張るテンプレートです。
+- イラストは 坂本アヒル さんのを使用してます。
 ![features_21_InfoOmikujiBotReadMe](../../template/features/features_21_InfoOmikujiBotReadMe.md)
 
 ### ずんだもん のキャラクター設定
@@ -23,7 +24,7 @@
 
 - 誰に対しても素直に喜び、ちょっとまごつきながらも、歓迎してくれる
 - しかし、初見詐欺に対しては、妙に煽り気味で上から目線（のように見える）
-- 何故か芸人ネタを持ち込む。
+- 何故か芸人ネタを持ち込む。[世界的な大スター](https://ja.wikipedia.org/wiki/%E3%81%A8%E3%81%AB%E3%81%8B%E3%81%8F%E6%98%8E%E3%82%8B%E3%81%84%E5%AE%89%E6%9D%91) が好きなようだ。
 
 ![features_31_InfoCharacter](../../template/features/features_31_InfoCharacter.md)
 
@@ -59,11 +60,16 @@
 - イラスト素材・動画・音源の再配布は禁止
 - イラストの利用については、公式の規約の範囲なら何に使ってもだいじょうぶ！（ず・ω・きょ）
 
+![](images/sleepy.webp)
+
+どうしてこんな格好をさせるのだ！ひどい仕打ちなのだ！
+
 ## バージョン情報
 
 ### ver.250816
 
-- 「初見判定ちゃん ずんだもん」としてリリース。
+- 「[おみくじ BOT](../OmikujiBot/README.md)」のバージョンアップに伴い、内容をリニューアルしました。
+	- じゃんけんでは「僕」と言い換えています。
 
 ### ver.240830
 

@@ -141,20 +141,7 @@ A: 「コメントが表示されない」ケースが報告されています�
 
 ## クレジット：イラストと音源について
 
-それぞれのパッケージでは、各種イラスト素材を使用しています。
-
-### おみくじ BOT ずんだもん OmikujiBot Zundamon
-
-- [ずんだもん立ち絵素材 - 坂本アヒルのイラスト - pixiv](https://www.pixiv.net/artworks/92641351)
-
-### おみくじ BOT 高飛車な四国めたん OmikujiBot Shikoku Metan
-
-- [【立ち絵素材】四国めたんデフォルメ立ち絵 / いえちー さんのイラスト - ニコニコ静画 (イラスト)](https://seiga.nicovideo.jp/seiga/im11022280)
-
-### おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari
-
-- [立ち絵素材だ、つむぎちゃん / カミヨシ さんのイラスト - ニコニコ静画 (イラスト)](https://seiga.nicovideo.jp/seiga/im11196295)
-- [立ち絵素材だ！ひまりちゃん\_ver2 / カミヨシ さんのイラスト - ニコニコ静画 (イラスト)](https://seiga.nicovideo.jp/watch/im11601628)
+それぞれのパッケージでは、各種イラスト素材を使用しています。詳細は各 README をご覧ください。
 
 ## バージョン情報
 

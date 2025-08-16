@@ -1,6 +1,6 @@
 - [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](https://pintocuru.booth.pm/items/5471598)
 - [おみくじ BOT ずんだもん OmikujiBot Zundamon](https://pintocuru.booth.pm/items/6053855)
-- [おみくじ BOT 高飛車な四国めたん OmikujiBot Shikoku Metan](https://pintocuru.booth.pm/items/6058829)
+- [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan](https://pintocuru.booth.pm/items/6058829)
 - おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari
 - [どこでもドラちゃん Bot OmikujiBot 5percent_Dora](https://pintocuru.booth.pm/items/7291931)
 - [スイカ 🍉 ジェネレーター Gousei Suika Generator](https://pintocuru.booth.pm/items/5813323)
