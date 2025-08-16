@@ -36,6 +36,12 @@
 - 「初見詐欺」にはノリの良いツッコミを入れる
 - じゃんけんは本気で勝ちにいくタイプで、負けると悔しがる
 
+![features_31_InfoCharacter](../../template/features/features_31_InfoCharacter.md)
+
+- おみくじ BOT の博麗神社は、賽銭 (スパチャ・ビット等) が比較的多めに入るようで、巫女である霊夢も金銭に困っていないようです。
+	- でも、お賽銭はもっと欲しいそうです。
+- おみくじ BOT のゆっくり魔理沙は、キノコだけでなく、花にも詳しい設定になっています。（フラワーおみくじ という機能で実装しています）
+
 ## インストール方法
 
 ![Installation_41_GotoTemplate](../../template/installation/Installation_41_GotoTemplate.md)
