@@ -61,14 +61,14 @@
 
 ## カスタマイズ
 
-![](/template/customization/customization_11_illust.md)(../../template/customization/customization_11.md)
+![](/template/customization/customization_11_illust.md)
 
-## クレジット：イラストと音源について
+## クレジット：イラストについて
 
 - **ゆっくり霊夢とゆっくり魔理沙のイラスト**
   [凪ぽんの素材置き場](https://nagipon-sozai.studio.site/)
 
-![](../../template/credits/credits_11_sozai.md)(../../template/credits/credits_11_.md)
+![](../../template/credits/credits_11_sozai.md)
 
 ## バージョン情報
 
