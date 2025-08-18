@@ -125,11 +125,11 @@ A: 「obs 音が出ない」 で検索してみて下さい。
 ## クレジット（Credits）
 
 - すべての効果音
-  提供元： [効果音ラボ](https://soundeffect-lab.info/)
+  提供元：効果音ラボ <https://soundeffect-lab.info/>
 - BOOTH 紹介画像のタイトルロゴのフォント
-  提供元：[ガガガガ | ヤマナカデザインワークス](https://ymnk-design.com/12-2/)
+  提供元：ガガガガ | ヤマナカデザインワークス <https://ymnk-design.com/12-2/>
 - BOOTH 紹介画像の背景:
-  提供元：[シンプルなワンルームの無料のAI画像素材 - ID.36120｜フリー素材 ぱくたそ](https://www.pakutaso.com/20230809229oneroomDIS.html)
+  提供元：シンプルなワンルームの無料の AI 画像素材 - ID.36120｜フリー素材 ぱくたそ <https://www.pakutaso.com/20230809229oneroomDIS.html>
 
 ![](../../template/credits/credits_11_sozai.md)
 
