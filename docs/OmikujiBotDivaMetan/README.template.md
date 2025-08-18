@@ -6,7 +6,7 @@
 
 ![](../../template/intro/intro_12.md) [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan](https://pintocuru.booth.pm/items/6058829)![](../../template/intro/intro_13.md)
 
-![](../../template/intro/intro_21_hazimeni)
+![](../../template/intro/intro_22_IntroOneComme.md)
 
 ## 1.このテンプレートは何？
 

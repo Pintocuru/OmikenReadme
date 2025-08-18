@@ -6,7 +6,7 @@
 
 ![](../../template/intro/intro_12.md) [おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari]()![](../../template/intro/intro_13.md)
 
-![](../../template/intro/intro_21_hazimeni)
+![](../../template/intro/intro_22_IntroOneComme.md)
 
 ## 1.このテンプレートは何？
 

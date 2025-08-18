@@ -6,7 +6,7 @@ OBS で使える、ライバー・配信者向けビンゴカードです。
 
 この内容は、BOOTH で配布している、 [ライバービンゴ LiverBingo](https://pintocuru.booth.pm/items/6744044) の readme となります。
 
-![intro_22_hazimeniNoOneComme](../../template/intro/intro_22_hazimeniNoOneComme.md)
+![intro_21_IntroNoOneComme](../../template/intro/intro_21_IntroNoOneComme.md)
 
 ## このビンゴカードでできること（Features）
 
@@ -27,7 +27,7 @@ OBS で使える、ライバー・配信者向けビンゴカードです。
     - パネル変更やリセットも、ワンクリックで OK。
 2. 🎨 **エディターによるテキスト・カラーの自由なカスタマイズ**
     - エディター付きで 編集しやすい。オリジナルビンゴカードを作成可能
-    - 35 種類のテーマカラーから選択可能。
+    - DaisyUi による、35 種類のテーマカラーから選択可能。
 3. ⏳ **配信に最適化された視認性の高いデザイン**
     - カーソルを合わせると選択マスが拡大表示され、視認性が向上
     - ビンゴ達成で、ラインの色が鮮やかに変化
@@ -43,6 +43,8 @@ OBS で使える、ライバー・配信者向けビンゴカードです。
 ### ビンゴカードを操作する
 
 ![ビンゴカードをOBSで操作する](images/3-1.jpg)
+
+OBS の「対話モード」を使い、ビンゴカードを操作します。
 
 1. `index.html` のソースを右クリックし、「対話（操作）」を選択
 2. ビンゴカードが表示されるので操作する
@@ -61,16 +63,16 @@ OBS で使える、ライバー・配信者向けビンゴカードです。
 
 ## カスタマイズ（Customization）
 
-エディター(`configMaker.html`) が同梱されており、簡単に自作のカードを作成できます。
+コンフィグエディター(`configMaker.html`) が同梱されており、簡単に自作のカードを作成できます。
 
 ![エディター画面](images/4-1.jpg)
 
-### 4-1. 編集を反映させる
+### 編集を反映させる
 
 1. 「config.js を生成」ボタンをクリック
 2. 生成されたファイルを、`configMaker.html` と同じフォルダに上書き保存
 
-### 4-2. 主な設定項目
+### 主な設定項目
 
 #### 基本設定 (Basic Settings)
 
@@ -106,7 +108,7 @@ A: HTML を表示できる配信ソフトであれば使用可能です（Stream
 
 #### Q. ビンゴの内容を変更するには？
 
-A: configMaker.html という、設定を変更できるファイルを用意しています。この readme の 4. カスタマイズ を参照して下さい。
+A: configMaker.html という、設定を変更できるファイルを用意しています。この readme の カスタマイズ を参照して下さい。
 
 ## トラブルシューティング (Troubleshooting)
 
@@ -122,13 +124,18 @@ A: 「obs 音が出ない」 で検索してみて下さい。
 
 ## クレジット（Credits）
 
-- すべての効果音: [効果音ラボ](https://soundeffect-lab.info/)
-- 紹介画像のタイトルロゴ: [ガガガガ | ヤマナカデザインワークス](https://ymnk-design.com/12-2/)
-- 紹介画像の背景: [シンプルなワンルームの無料のAI画像素材 - ID.36120｜フリー素材 ぱくたそ](https://www.pakutaso.com/20230809229oneroomDIS.html)
+- すべての効果音
+  提供元： [効果音ラボ](https://soundeffect-lab.info/)
+- BOOTH 紹介画像のタイトルロゴのフォント
+  提供元：[ガガガガ | ヤマナカデザインワークス](https://ymnk-design.com/12-2/)
+- BOOTH 紹介画像の背景:
+  提供元：[シンプルなワンルームの無料のAI画像素材 - ID.36120｜フリー素材 ぱくたそ](https://www.pakutaso.com/20230809229oneroomDIS.html)
+
+![](../../template/credits/credits_11_sozai.md)
 
 ## バージョン情報 (Version)
 
-### v0.1.2 (2025/08/17)
+### v0.1.2 (2025/08/18)
 
 - ReadMe を変更しました
 

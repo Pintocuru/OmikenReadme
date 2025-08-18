@@ -6,7 +6,7 @@
 
 ![](../../template/intro/intro_12.md) [どこでもドラちゃん Bot OmikujiBot 5percent_Dora](https://pintocuru.booth.pm/items/7291931)![](../../template/intro/intro_13.md)
 
-![](../../template/intro/intro_21_hazimeni)
+![](../../template/intro/intro_22_IntroOneComme.md)
 
 ## このテンプレートは何？
 

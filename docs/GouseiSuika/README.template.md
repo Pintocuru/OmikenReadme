@@ -4,9 +4,9 @@
 
 ![](../../template/intro/intro_11.md) テンプレートです。
 
-![](../../template/intro/intro_12.md) [スイカ 🍉 ジェネレーター Gousei Suika Generator](https://pintocuru.booth.pm/items/5813323)![](../../template/intro/intro_13.md)
+この内容は、BOOTH で配布している、 [スイカ 🍉 ジェネレーター Gousei Suika Generator](https://pintocuru.booth.pm/items/5813323) の readme となります。
 
-![](../../template/intro/intro_21_hazimeni)
+![](../../template/intro/intro_22_IntroOneComme.md)
 
 ## このテンプレートは何？（Features）
 
@@ -16,7 +16,7 @@
 
 - 「スイカ」「スイカゲーム」「🍉」等とコメントすると、配信画面にたくさんのフルーツが現れ、ランダムに得点を表示します。
 - 得点は 900 ～ 3000 点程度が一般的ですが、まれに 5000 点を超える高得点も出現します。
-- 降ってくるフルーツは演出です。くっついてもシンカはしません。
+	- 降ってくるフルーツは演出です。くっついてもシンカはしません。
 - 得点の読み上げとハイスコアの表示
 	- スイカゲーム風のスコア表示で表示され、誰がどんな得点だったかがわかります。
 - スコアランキング付き
@@ -25,11 +25,7 @@
 - PRO 版は「カボチャゲーム」「クジラゲーム」も選べる！
 	- 「スイカゲーム」の他、「カボチャゲーム」(ハロウィン仕様のスイカゲーム) 風のおみくじや、「クジラゲーム」風のおみくじも遊べます。
 
-## インストール方法 (Installation)
-
-![Installation_41_GotoTemplate](../../template/installation/Installation_41_GotoTemplate.md)
-
-![Installation_42_OmikujiWordParty](../../template/installation/Installation_42_OmikujiWordParty.md)
+![Installation_91_OmikujiBotSet](../../template/installation/Installation_91_OmikujiBotSet.md)
 
 ## つかいかた (Usage)
 
@@ -46,7 +42,8 @@
 
 ![customization_21_ConfigEditor](../../template/customization/customization_21_ConfigEditor.md)
 
-![](/template/customization/customization_11_illust.md)
+- おみくじの内容は、あなたの配信に合わせて**内容を自由にカスタマイズ**できます。
+- ゲームスクリプトという、特殊なプレースホルダーを生成する機能によって実現しています。
 
 ## よくある質問 (FAQ)
 

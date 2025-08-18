@@ -6,7 +6,7 @@
 
 ![](../../template/intro/intro_12.md) 下記に同梱している「コンフィグエディター」![](../../template/intro/intro_13.md)
 
-![](../../template/intro/intro_21_hazimeni)
+![](../../template/intro/intro_22_IntroOneComme.md)
 
 ## このアプリは何？
 

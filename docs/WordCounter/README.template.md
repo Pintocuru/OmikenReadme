@@ -6,7 +6,7 @@
 
 ![[../../template/_common/OmikujiBotPackageBOOTH]](../../template/_common/OmikujiBotIntoPackage.md)
 
-![[../../template/intro/intro_21_hazimeni]]
+![[../../template/intro/intro_22_IntroOneComme]]
 
 ## このジェネレーターは何？
 

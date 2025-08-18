@@ -9,7 +9,7 @@
 
 ![[../../template/_common/OmikujiBotPackageBOOTH]]
 
-![[../../template/intro/intro_21_hazimeni]]
+![[../../template/intro/intro_22_IntroOneComme]]
 
 ## このテンプレートは何？
 

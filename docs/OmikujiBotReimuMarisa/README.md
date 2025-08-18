@@ -1,6 +1,6 @@
 # おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa
 
-最終更新日：2025/08/17
+最終更新日：2025/08/18
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
@@ -120,9 +120,10 @@ A. [おみくじ BOT README トラブルシューティング](../OmikujiBot/REA
 
 ## クレジット（Credits）
 
-### ゆっくり霊夢とゆっくり魔理沙のイラスト
+### 使用素材
 
-#### [凪ぽんの素材置き場 (https://nagipon-sozai.studio.site/)](https://nagipon-sozai.studio.site/)
+- ゆっくり霊夢・ゆっくり魔理沙イラスト
+    提供元：[凪ぽんの素材置き場](https://nagipon-sozai.studio.site/)
 
 ### 素材の取り扱いについて
 

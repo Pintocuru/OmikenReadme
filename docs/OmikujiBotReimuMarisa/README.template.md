@@ -4,9 +4,9 @@
 
 ![](../../template/intro/intro_11.md) テンプレートです。
 
-![](../../template/intro/intro_12.md) [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](https://pintocuru.booth.pm/items/5471598) ![](../../template/intro/intro_13.md)
+この内容は、BOOTH で配布している、 [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](https://pintocuru.booth.pm/items/5471598) の readme となります。
 
-![](../../template/intro/intro_21_hazimeni)
+![](../../template/intro/intro_22_IntroOneComme.md)
 
 ## このテンプレートは何？（Features）
 
@@ -42,11 +42,7 @@
 	- でも、お賽銭はもっと欲しいそうです。
 - おみくじ BOT のゆっくり魔理沙は、キノコだけでなく、花にも詳しい設定になっています。（フラワーおみくじ という機能で実装しています）
 
-## インストール方法 (Installation)
-
-![Installation_41_GotoTemplate](../../template/installation/Installation_41_GotoTemplate.md)
-
-![Installation_42_OmikujiWordParty](../../template/installation/Installation_42_OmikujiWordParty.md)
+![Installation_91_OmikujiBotSet](../../template/installation/Installation_91_OmikujiBotSet.md)
 
 ## つかいかた (Usage)
 
@@ -65,27 +61,14 @@
 
 ![](/template/customization/customization_11_illust.md)
 
-## よくある質問 (FAQ)
+![faq_91_OmikujiBotSet](../../template/faq/faq_91_OmikujiBotSet.md)
 
-![faq_11_infoOneComme](../../template/faq/faq_11_infoOneComme.md)
-
-### システム関連
-
-![faq_21_LimitEdit](../../template/faq/faq_21_LimitEdit.md)
-
-## トラブルシューティング (Troubleshooting)
-
-![troubleshooting_11_infoOneComme](../../template/troubleshooting/troubleshooting_11_infoOneComme.md)
-
-![troubleshooting_12_infoOmikujiBot](../../template/troubleshooting/troubleshooting_12_infoOmikujiBot.md)
-
-![troubleshooting_13_infoWordParty](../../template/troubleshooting/troubleshooting_13_infoWordParty.md)
+![troubleshooting_91_OmikujiBotSet](../../template/troubleshooting/troubleshooting_91_OmikujiBotSet.md)
 
 ## クレジット（Credits）
 
-### ゆっくり霊夢とゆっくり魔理沙のイラスト
-
-#### [凪ぽんの素材置き場 (https://nagipon-sozai.studio.site/)](https://nagipon-sozai.studio.site/)
+- ゆっくり霊夢・ゆっくり魔理沙イラスト
+    提供元：凪ぽんの素材置き場 <https://nagipon-sozai.studio.site/>
 
 ![](../../template/credits/credits_11_sozai.md)
 
