@@ -8,7 +8,7 @@
 
 ![](../../template/intro/intro_21_hazimeni)
 
-## 1.このテンプレートは何？
+## このテンプレートは何？（Features）
 
 ### ゆっくり霊夢と魔理沙がリスナーを歓迎してくれるジェネレーター
 
@@ -42,13 +42,13 @@
 	- でも、お賽銭はもっと欲しいそうです。
 - おみくじ BOT のゆっくり魔理沙は、キノコだけでなく、花にも詳しい設定になっています。（フラワーおみくじ という機能で実装しています）
 
-## インストール方法
+## インストール方法 (Installation)
 
 ![Installation_41_GotoTemplate](../../template/installation/Installation_41_GotoTemplate.md)
 
 ![Installation_42_OmikujiWordParty](../../template/installation/Installation_42_OmikujiWordParty.md)
 
-## つかいかた
+## つかいかた (Usage)
 
 解説配信でも良く使われる、「ゆっくり霊夢」「ゆっくり魔理沙」を BOT キャラクターにしました。「おみくじ」BOT らしく " 博麗神社の巫女 " が、おみくじの結果を教えてくれます。
 
@@ -59,22 +59,43 @@
 - **ゲーム配信**
 	- ゲームに集中していても、BOT が代わりに挨拶してくれるので、初見さんを見逃しません。
 
-## カスタマイズ
+## カスタマイズ（Customization）
+
+![customization_21_ConfigEditor](../../template/customization/customization_21_ConfigEditor.md)
 
 ![](/template/customization/customization_11_illust.md)
 
-## クレジット：イラストについて
+## よくある質問 (FAQ)
 
-- **ゆっくり霊夢とゆっくり魔理沙のイラスト**
-  [凪ぽんの素材置き場](https://nagipon-sozai.studio.site/)
+![faq_11_infoOneComme](../../template/faq/faq_11_infoOneComme.md)
+
+### システム関連
+
+![faq_21_LimitEdit](../../template/faq/faq_21_LimitEdit.md)
+
+## トラブルシューティング (Troubleshooting)
+
+![troubleshooting_11_infoOneComme](../../template/troubleshooting/troubleshooting_11_infoOneComme.md)
+
+![troubleshooting_12_infoOmikujiBot](../../template/troubleshooting/troubleshooting_12_infoOmikujiBot.md)
+
+![troubleshooting_13_infoWordParty](../../template/troubleshooting/troubleshooting_13_infoWordParty.md)
+
+## クレジット（Credits）
+
+### ゆっくり霊夢とゆっくり魔理沙のイラスト
+
+#### [凪ぽんの素材置き場 (https://nagipon-sozai.studio.site/)](https://nagipon-sozai.studio.site/)
 
 ![](../../template/credits/credits_11_sozai.md)
 
-## バージョン情報
+## バージョン情報 (Version)
 
 ### ver.250816
 
-- バージョン表記の変更。セマンティック・バージョニング > 日付にしました。
+- メインのシステムをおみくじ BOT に任せたことにより、バージョン表記の変更を行いました。
+	- セマンティック・バージョニング > 日付にしました。
+- 以降、おみくじ内容が変化しない限りは、バージョンの表記は変化しません。
 
 ### v0.8.0 25/07/24
 

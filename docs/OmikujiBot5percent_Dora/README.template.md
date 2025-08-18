@@ -40,6 +40,8 @@
 
 ## カスタマイズ
 
+![customization_21_ConfigEditor](../../template/customization/customization_21_ConfigEditor.md)
+
 ![customization_12_illust](../../template/customization/customization_12_illust.md)
 
 ## バージョン情報

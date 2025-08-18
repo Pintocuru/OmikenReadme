@@ -2,7 +2,7 @@
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
-![](../../template/intro/intro_11.md) BOTソフトウェア です。
+![](../../template/intro/intro_11.md) BOT ソフトウェア です。
 
 このテンプレートは、下記のパッケージの内容を含みます。
 
@@ -63,7 +63,7 @@
 
 ## よくある質問
 
-わんコメの機能については [よくある質問](https://onecomme.com/docs/faq) または [導入ガイド](https://onecomme.com/docs/guide) をご参照ください。
+![faq_11_infoOneComme](../../template/faq/faq_11_infoOneComme.md)
 
 ### フキダシ・キャラクター表示関連
 
@@ -103,7 +103,7 @@ A: おみくじ (omikuji)＋初見 (syoken) から取ってます。前作「初
 
 ## トラブルシューティング
 
-わんコメの機能については [トラブルシューティング](https://onecomme.com/docs/trouble-shooting) または [導入ガイド](https://onecomme.com/docs/guide) をご参照ください。
+![troubleshooting_11_infoOneComme](../../template/troubleshooting/troubleshooting_11_infoOneComme.md)
 
 ### 設定・表示・音声関連
 
