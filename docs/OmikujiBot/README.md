@@ -6,7 +6,7 @@
 
 このテンプレートは、下記のパッケージの内容を含みます。
 
-- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](https://pintocuru.booth.pm/items/5471598)
+- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa](https://pintocuru.booth.pm/items/5471598)
 - [おみくじ BOT ずんだもん OmikujiBot Zundamon](https://pintocuru.booth.pm/items/6053855)
 - [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan](https://pintocuru.booth.pm/items/6058829)
 - おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari
@@ -23,7 +23,7 @@
 
 ![](images/1-1.avif)
 
-### 🎯わんコメに BOT 機能を付与するジェネレーター
+### 🎯 わんコメに BOT 機能を付与するジェネレーター
 
 - 【おみくじ BOT OmikujiBot】は、わんコメに BOT 機能を付与するジェネレーターです。
 - 特定のワード (おみくじ 等) と、チャットに投稿することで、ランダムな結果を配信画面に表示します。
@@ -60,7 +60,7 @@
 
 ### 【推奨】おみくじ BOT 用 WordParty の導入について
 
-この【おみくじ BOT OmikujiBot】は、[おみくじBOT用WordParty](https://booth.pm/ja/items/6048048) の演出を前提として作られています。この WordParty を導入することで、配信がより華やかで視覚的に楽しいものになります。
+この【おみくじ BOT OmikujiBot】は、[おみくじ BOT 用 WordParty](https://booth.pm/ja/items/6048048) の演出を前提として作られています。この WordParty を導入することで、配信がより華やかで視覚的に楽しいものになります。
 
 - キャラクターのセリフに、効果音やアニメーションが追加で表示されるように。
 - おみくじの結果やじゃんけんの勝敗が、視覚的にわかりやすく表示されます。
@@ -71,7 +71,7 @@
 
 パッケージによって、利用シーンは様々です。詳しくは、下記の Readme をご覧ください。
 
-- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa README](../../docs/OmikujiBotReimuMarisa/README.md)
+- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa README](../../docs/OmikujiBotReimuMarisa/README.md)
 - [おみくじ BOT みんなのずんだもん OmikujiBot Everyone Zunda README](../../docs/OmikujiBotEveryoneZunda/README.md)
 - [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan README](../../docs/OmikujiBotDivaMetan/README.md)
 - [おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari README](../../docs/OmikujiBotTsumugiHimari/README.md)
@@ -86,7 +86,7 @@
 
 配布パッケージの種類によっては、一部機能が制限または非表示になっている場合があります。
 
-詳しくは [おみくじBOT コンフィグエディター README](../../docs/OmikujiBot_ConfigEditor/README.md) をご覧ください。
+詳しくは [おみくじ BOT コンフィグエディター README](../../docs/OmikujiBot_ConfigEditor/README.md) をご覧ください。
 
 ## よくある質問
 
@@ -166,7 +166,7 @@ A: おみくじを短時間に何度も行うと、配信プラットフォー�
 
 それぞれのパッケージでは、各種イラスト素材を使用しています。詳しくは、下記の Readme をご覧ください。
 
-- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa README](../../docs/OmikujiBotReimuMarisa/README.md)
+- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa README](../../docs/OmikujiBotReimuMarisa/README.md)
 - [おみくじ BOT みんなのずんだもん OmikujiBot Everyone Zunda README](../../docs/OmikujiBotEveryoneZunda/README.md)
 - [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan README](../../docs/OmikujiBotDivaMetan/README.md)
 - [おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari README](../../docs/OmikujiBotTsumugiHimari/README.md)
@@ -180,7 +180,7 @@ A: おみくじを短時間に何度も行うと、配信プラットフォー�
 - [おみくじ BOT コンフィグエディター](../OmikujiBot_ConfigEditor/README.md) の README を分離。
 - Bot コメントの表示を一部修正
 - 内部データの改善
-	- EsLint を導入したら、中身がめちゃくちゃだと言われました。内部的な修正はしばらく続くと思います。
+  - EsLint を導入したら、中身がめちゃくちゃだと言われました。内部的な修正はしばらく続くと思います。
 
 ### v0.8.0 Pre.02 25/07/27
 
@@ -190,7 +190,7 @@ A: おみくじを短時間に何度も行うと、配信プラットフォー�
 
 ### v0.8.0 Pre.01 25/07/24
 
-- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](../OmikujiBotReimuMarisa/README.md) から、システム的な更新はこちらで行うことにしました。
+- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa](../OmikujiBotReimuMarisa/README.md) から、システム的な更新はこちらで行うことにしました。
 - それにより、バージョンが 0.8 からとなっています。
 - [おみくじ BOT](../OmikujiBot/README.md) を使うことで、コンフィグメーカーを実現できるように。
 - じゃんけんの時、一人称が「俺」となっていますが、コンフィグメーカーで「私」への変更が容易になりました。

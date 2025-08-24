@@ -6,7 +6,7 @@
 
 - このテンプレートは、下記のパッケージで使用するほか、独自に使用できます。
 - それぞれ、最新版で使用できます。バージョンが古い場合、正常に機能しない可能性があります。
-- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](https://pintocuru.booth.pm/items/5471598)
+- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa](https://pintocuru.booth.pm/items/5471598)
 - [おみくじ BOT ずんだもん OmikujiBot Zundamon](https://pintocuru.booth.pm/items/6053855)
 - [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan](https://pintocuru.booth.pm/items/6058829)
 - おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari
@@ -26,10 +26,10 @@
 ### おみくじ BOT を賑やかに演出する WordParty セット
 
 - 【おみくじ BOT 用 WordParty】は、わんコメの機能 「[WordParty](https://onecomme.com/docs/feature/wordparty)」のセットです。
-- 通常の用途でも使用できますが、[おみくじ BOT](app://obsidian.md/OmikujiBot/README.md) と組み合わせることで、最大限の演出を引き出せます。
-	- 遅延を利用して、複数の演出を順番に再生 (WordParty の PRO 版機能「コネクター」のようなもの)
-	- おみくじの結果に応じて、ランダムに演出を発動
-	- 複数の演出を同時に発動し、画面全体を覆い尽くす ([スイカゲーム](https://suikagame.jp/) のような表現が可能です)
+- 通常の用途でも使用できますが、[おみくじ BOT](app://obsidian.md/OmikujiBot/README.md)  と組み合わせることで、最大限の演出を引き出せます。
+  - 遅延を利用して、複数の演出を順番に再生 (WordParty の PRO 版機能「コネクター」のようなもの)
+  - おみくじの結果に応じて、ランダムに演出を発動
+  - 複数の演出を同時に発動し、画面全体を覆い尽くす ([スイカゲーム](https://suikagame.jp/) のような表現が可能です)
 
 ![](images/1-2.avif)
 
@@ -53,7 +53,7 @@ WordParty に関する内容は、[コメントによる演出 - WordParty](http
 
 #### Q. パターンに入っている、「^」ってなに？「!」ってなに？
 
-A: **「^」は、前方一致と呼ばれる正規表現です。** 正規表現については、生成 AI に効いてみてください。「!」が付いているのは、コメントでその演出が意図せず出現しないようにする対処です。*ID で発動させればよかったよね？*
+A: **「^」は、前方一致と呼ばれる正規表現です。** 正規表現については、生成 AI に効いてみてください。「!」が付いているのは、コメントでその演出が意図せず出現しないようにする対処です。_ID で発動させればよかったよね？_
 
 #### Q. 一部 PRO 版の機能使っていない？大丈夫？
 
@@ -88,14 +88,14 @@ A: わんコメの WordParty と一緒に使っていれば、どんな使い方
 ### 🎨 イラスト・グラフィック
 
 - **ゆびをふるの指**
-- **ボンバースロットのフルーツ
+- \*\*ボンバースロットのフルーツ
 - **ドラちゃんの背景の集中線**
 - **桃鉄カードの顔**
 - **あとなんか色々**
   [ダーヤマ TOPECONHEROES](https://twitter.com/topeconheroes)
 
 - **ボンバースロット / うさぎスロット：爆発アニメーション**
-  [ニコニ・コモンズ：爆発して画面を覆う炎（フルHD）](https://commons.nicovideo.jp/works/nc121868)
+  [ニコニ・コモンズ：爆発して画面を覆う炎（フル HD）](https://commons.nicovideo.jp/works/nc121868)
 
 - **じゃんけん（グーチョキパーのイラスト）**
   [ツカッテ - じゃんけんプレート](https://tsukatte.com/rock-paper-scissors_plate/)

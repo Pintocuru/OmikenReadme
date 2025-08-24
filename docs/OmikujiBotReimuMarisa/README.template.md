@@ -1,10 +1,10 @@
-# おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa
+# おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
 ![](../../template/intro/intro_11.md) テンプレートです。
 
-この内容は、BOOTH で配布している、 [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot Reimu & Marisa](https://pintocuru.booth.pm/items/5471598) の readme となります。
+この内容は、BOOTH で配布している、 [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa](https://pintocuru.booth.pm/items/5471598) の readme となります。
 
 ![](../../template/intro/intro_22_IntroOneComme.md)
 
@@ -13,7 +13,7 @@
 ### ゆっくり霊夢と魔理沙がリスナーを歓迎してくれるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、ゆっくり霊夢と魔理沙が楽しく出演するテンプレートです。
-![features_21_InfoOmikujiBotReadMe](../../template/features/features_21_InfoOmikujiBotReadMe.md)
+  ![features_21_InfoOmikujiBotReadMe](../../template/features/features_21_InfoOmikujiBotReadMe.md)
 
 ### ゆっくり霊夢のキャラクター設定
 
@@ -39,7 +39,7 @@
 ![features_31_InfoCharacter](../../template/features/features_31_InfoCharacter.md)
 
 - おみくじ BOT の博麗神社は、賽銭 (スパチャ・ビット等) が比較的多めに入るようで、巫女である霊夢も金銭に困っていないようです。
-	- でも、お賽銭はもっと欲しいそうです。
+  - でも、お賽銭はもっと欲しいそうです。
 - おみくじ BOT のゆっくり魔理沙は、キノコだけでなく、花にも詳しい設定になっています。（フラワーおみくじ という機能で実装しています）
 
 ![Installation_91_OmikujiBotSet](../../template/installation/Installation_91_OmikujiBotSet.md)
@@ -49,11 +49,11 @@
 解説配信でも良く使われる、「ゆっくり霊夢」「ゆっくり魔理沙」を BOT キャラクターにしました。「おみくじ」BOT らしく " 博麗神社の巫女 " が、おみくじの結果を教えてくれます。
 
 - **朝活配信**
-	- 今日 1 日の運勢を占う「おみくじ」で、配信が賑やかに。
+  - 今日 1 日の運勢を占う「おみくじ」で、配信が賑やかに。
 - **雑談配信**
-	- リスナーのコメントに対してキャラクターがボケたりツッコミを入れたりして、自然に会話が広がります。
+  - リスナーのコメントに対してキャラクターがボケたりツッコミを入れたりして、自然に会話が広がります。
 - **ゲーム配信**
-	- ゲームに集中していても、BOT が代わりに挨拶してくれるので、初見さんを見逃しません。
+  - ゲームに集中していても、BOT が代わりに挨拶してくれるので、初見さんを見逃しません。
 
 ## カスタマイズ（Customization）
 
@@ -68,7 +68,7 @@
 ## クレジット（Credits）
 
 - ゆっくり霊夢・ゆっくり魔理沙イラスト
-    提供元：凪ぽんの素材置き場 <https://nagipon-sozai.studio.site/>
+  提供元：凪ぽんの素材置き場 <https://nagipon-sozai.studio.site/>
 
 ![](../../template/credits/credits_11_sozai.md)
 
@@ -76,15 +76,15 @@
 
 ### ver.250824
 
-- おみくじBOTのバージョン: v0.8.0 Beta.08
+- おみくじ BOT のバージョン: v0.8.0 Beta.08
 - 機能追加による更新を行いました。
-- PRO版に搭載の「スイカジェネレーター」「ボンバースピン」「うさぎスロット」の上限回数を「10」にしました。
-	- この設定はエディターで変更できます
+- PRO 版に搭載の「スイカジェネレーター」「ボンバースピン」「うさぎスロット」の上限回数を「10」にしました。
+  - この設定はエディターで変更できます
 
 ### ver.250816
 
 - メインのシステムをおみくじ BOT に任せたことにより、バージョン表記の変更を行いました。
-	- セマンティック・バージョニング > 日付にしました。
+  - セマンティック・バージョニング > 日付にしました。
 - 以降、おみくじ内容が変化しない限りは、バージョンの表記は変化しません。
 
 ### v0.8.0 25/07/24
@@ -184,4 +184,4 @@
 
 ![credits_99_sesupin](../../template/credits/credits_99_sesupin.md)
 
-<%* await tp.user.expandEmbeds(tp) %>
+<%\* await tp.user.expandEmbeds(tp) %>
