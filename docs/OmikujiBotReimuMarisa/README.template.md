@@ -5,7 +5,6 @@
 ![](../../template/intro/intro_11.md) テンプレートです。
 
 この内容は、BOOTH で配布している、 [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa](https://pintocuru.booth.pm/items/5471598) の readme となります。
-
 ![](../../template/intro/intro_22_IntroOneComme.md)
 
 ## このテンプレートは何？（Features）

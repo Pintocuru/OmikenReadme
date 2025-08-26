@@ -2,7 +2,7 @@
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
-![](../../template/intro/intro_11.md)  テンプレートです。
+![](../../template/intro/intro_11.md) テンプレートです。
 
 ![](../../template/intro/intro_12.md) [おみくじ BOT みんなのずんだもん OmikujiBot EveryoneZunda](https://pintocuru.booth.pm/items/6053855)![](../../template/intro/intro_13.md)
 

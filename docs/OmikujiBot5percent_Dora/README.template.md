@@ -53,10 +53,10 @@
 ![faq_91_OmikujiBotSet](../../template/faq/faq_91_OmikujiBotSet.md)
 
 ### その他
+
 #### Q.ドラえもんでしょ？
 
 A: 違います。
-
 
 ![troubleshooting_91_OmikujiBotSet](../../template/troubleshooting/troubleshooting_91_OmikujiBotSet.md)
 
