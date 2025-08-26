@@ -12,7 +12,7 @@ dist
 dist-ssr
 *.local
 .obsidian
-zipped
+distZipped
 
 # Editor directories and files
 .vscode/*

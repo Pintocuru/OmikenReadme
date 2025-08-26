@@ -4,7 +4,7 @@
 
 ![](../../template/intro/intro_11.md) テンプレートです。
 
-![](../../template/intro/intro_12.md) [どこでもドラちゃん Bot OmikujiBot 5percent_Dora](https://pintocuru.booth.pm/items/7291931)![](../../template/intro/intro_13.md)
+![](../../template/intro/intro_12.md) [どこでもドラちゃん Bot OmikujiBot 5percent_Dora](https://pintocuru.booth.pm/items/7291931) の readme となります。
 
 ![](../../template/intro/intro_22_IntroOneComme.md)
 
@@ -27,7 +27,7 @@
 
 ![](images/250816_1.jpg)
 
-古くから商売繁盛のシンボル「信楽たぬき」「仙台四郎」にあやかり、**現代の運試し＝ソーシャルゲームのガチャにおける縁起物**として人気の「ドラちゃん」を、あなたの手元でいつでも呼び出せるようにしました。(運気アップは自己責任です)
+古くから商売繁盛のシンボル「信楽たぬき」「仙台四郎」にあやかり、**現代の運試し＝ソーシャルゲームのガチャにおける縁起物**として人気の「ドラちゃん」を、あなたの手元でいつでも呼び出せるようにしました。
 
 (上記の説明は実際とは異なります。[某有名Bot](https://x.com/5percent_dora) を模したおみくじ BOT となります。非公式パロディです。)
 
@@ -44,7 +44,27 @@
 
 ![customization_12_illust](../../template/customization/customization_12_illust.md)
 
+## カスタマイズ（Customization）
+
+![customization_21_ConfigEditor](../../template/customization/customization_21_ConfigEditor.md)
+
+![](/template/customization/customization_11_illust.md)
+
+![faq_91_OmikujiBotSet](../../template/faq/faq_91_OmikujiBotSet.md)
+
+### その他
+#### Q.ドラえもんでしょ？
+
+A: 違います。
+
+
+![troubleshooting_91_OmikujiBotSet](../../template/troubleshooting/troubleshooting_91_OmikujiBotSet.md)
+
 ## バージョン情報
+
+### ver.250825
+
+- おみくじ BOT のバージョン: v0.8.0 Beta.09
 
 ### ver.250816
 

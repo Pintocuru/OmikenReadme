@@ -42,7 +42,8 @@
   - でも、お賽銭はもっと欲しいそうです。
 - おみくじ BOT のゆっくり魔理沙は、キノコだけでなく、花にも詳しい設定になっています。（フラワーおみくじ という機能で実装しています）
 
-![Installation_91_OmikujiBotSet](../../template/installation/Installation_91_OmikujiBotSet.md)
+![Installation_92_OmikujiBotPROSet](../../template/installation/Installation_92_OmikujiBotPROSet.md)
+
 
 ## つかいかた (Usage)
 
@@ -73,6 +74,12 @@
 ![](../../template/credits/credits_11_sozai.md)
 
 ## バージョン情報 (Version)
+
+### ver.250825
+
+- おみくじ BOT のバージョン: v0.8.0 Beta.09
+- 「通常版」と「PRO版」の2種類に分離しました。
+	- これにより、PRO版にアップグレードする作業が必要になります。
 
 ### ver.250824
 
@@ -184,4 +191,4 @@
 
 ![credits_99_sesupin](../../template/credits/credits_99_sesupin.md)
 
-<%\* await tp.user.expandEmbeds(tp) %>
+<%* await tp.user.expandEmbeds(tp) %>
