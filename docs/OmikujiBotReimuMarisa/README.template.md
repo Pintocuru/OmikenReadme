@@ -46,7 +46,7 @@
 
 ## つかいかた (Usage)
 
-解説配信でも良く使われる、「ゆっくり霊夢」「ゆっくり魔理沙」を BOT キャラクターにしました。「おみくじ」BOT らしく " 博麗神社の巫女 " が、おみくじの結果を教えてくれます。
+解説動画でも良く使われる、「ゆっくり霊夢」「ゆっくり魔理沙」を BOT キャラクターにしました。
 
 - **朝活配信**
   - 今日 1 日の運勢を占う「おみくじ」で、配信が賑やかに。
@@ -54,6 +54,28 @@
   - リスナーのコメントに対してキャラクターがボケたりツッコミを入れたりして、自然に会話が広がります。
 - **ゲーム配信**
   - ゲームに集中していても、BOT が代わりに挨拶してくれるので、初見さんを見逃しません。
+
+### おみくじ
+
+- 「おみくじ」BOT らしく " 博麗神社の巫女 " が、おみくじの結果を教えてくれます。
+- 「大凶」の代わりに「残念賞」が入ってますが…入れたのは魔理沙らしい。
+
+![usage_21_JankenHonda](../../template/usage/usage_21_JankenHonda.md)
+
+![usage_22_FirstCounter](../../template/usage/usage_22_FirstCounter.md)
+
+![usage_23_Gift](../../template/usage/usage_23_Gift.md)
+
+![usage_24_StreamCountTrigger](../../template/usage/usage_24_StreamCountTrigger.md)
+
+![usage_25_PromotionToast](../../template/usage/usage_25_PromotionToast.md)
+
+### PRO 版特典: 魔理沙のフラワー占い
+
+- ちょっと本格的な、花を使った色占いです。
+- 「キノコ好き」という、ゆっくり魔理沙の設定から、キノコに関するうんちくも聞けるよ。
+
+![usage_26_GameScripts](../../template/usage/usage_26_GameScripts.md)
 
 ## カスタマイズ（Customization）
 
