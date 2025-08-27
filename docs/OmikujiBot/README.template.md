@@ -10,7 +10,7 @@
 
 ![](../../template/intro/intro_22_IntroOneComme.md)
 
-## このテンプレートは何？
+## このテンプレートは何？（Features）
 
 ![](images/1-1.avif)
 
@@ -45,25 +45,21 @@
    - SNS やファンクラブの告知も自動投稿
    - 投稿間隔も設定可能で、時報代わりにも使えます
 
-## インストール方法
+## インストール方法 (Installation)
 
-![Installation_41_GotoTemplate](../../template/installation/Installation_41_GotoTemplate.md)
+それぞれのパッケージに記載されている「インストール方法」をご覧ください。
 
-![Installation_42_OmikujiWordParty](../../template/installation/Installation_42_OmikujiWordParty.md)
-
-## つかいかた
+## つかいかた (Usage)
 
 パッケージによって、利用シーンは様々です。詳しくは、下記の Readme をご覧ください。
 
 ![OmikujiBotPackageReadme](../../template/_common/OmikujiBotPackageReadme.md)
 
-## カスタマイズ
+## カスタマイズ（Customization）
 
 ![customization_21_ConfigEditor](../../template/customization/customization_21_ConfigEditor.md)
 
-## よくある質問
-
-![faq_11_infoOneComme](../../template/faq/faq_11_infoOneComme.md)
+![faq_91_OmikujiBotSet](../../template/faq/faq_91_OmikujiBotSet.md)
 
 ### フキダシ・キャラクター表示関連
 
@@ -101,7 +97,7 @@ A: これでも高い方です (勝率は約 5%)。[ケイスケ ホンダ](http
 
 A: おみくじ (omikuji)＋初見 (syoken) から取ってます。前作「初見判定ちゃん<https://booth.pm/ja/items/5471598> の名残です。」
 
-## トラブルシューティング
+## トラブルシューティング (Troubleshooting)
 
 ![troubleshooting_11_infoOneComme](../../template/troubleshooting/troubleshooting_11_infoOneComme.md)
 
@@ -131,17 +127,23 @@ A: わんコメでコメントが受信できていないと、おみくじも�
 
 A: おみくじをはじめとする BOT のコメントは、わんコメを通じてジェネレーターでのみ表示されます。YouTube や Twitch のチャットには投稿・反映されません。
 
+#### Q. どうしても、BOT コメントを Youtube のチャットに表示させたい
+
+A: Youtube・Twitch 限定で [SAMMI](https://sammi.solutions/) を使ってコメントを投稿する方法もありますが、素直に [Nightbot](https://nightbot.tv/) や、 [CastCraft](https://castcraft.live/) を使うほうが簡単かも。
+
 #### Q. おみくじを連続で行うとコメントが反映されなくなる
 
 A: おみくじを短時間に何度も行うと、配信プラットフォームの自動規制（ソフト BAN）により、コメントが反映されなくなることがあります。**テストの場合は、わんコメの コメントテスター をお使いください。**
 
-## クレジット：イラストと音源について
+## クレジット（Credits）
 
 それぞれのパッケージでは、各種イラスト素材を使用しています。詳しくは、下記の Readme をご覧ください。
 
 ![OmikujiBotPackageReadme](../../template/_common/OmikujiBotPackageReadme.md)
 
-## バージョン情報
+![license_91_AppLicense](../../template/license/license_91_AppLicense.md)
+
+## バージョン情報 (Version)
 
 ### v0.8.0 Beta.09 25/08/26
 

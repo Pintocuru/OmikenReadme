@@ -60,9 +60,20 @@ A: 違います。
 
 ![troubleshooting_91_OmikujiBotSet](../../template/troubleshooting/troubleshooting_91_OmikujiBotSet.md)
 
+## ライセンス（License）
+
+### パッケージデータ (5percent_Dora)
+
+- ネタパッケージです。非営利の範囲であれば、配信での使用・改変は自由です。
+- YouTube や Twitch 等での収益化配信も、個人による非営利利用とみなします。
+	- ただし、法人・企業による利用や、パッケージの再配布・販売はご遠慮ください。
+- 改変の有無にかかわらず、再配布は禁止とさせていただきます。
+
+![license_11_LicenseApp](license_11_LicenseApp.md)
+
 ## バージョン情報
 
-### ver.250825
+### ver.250828
 
 - おみくじ BOT のバージョン: v0.8.0 Beta.09
 

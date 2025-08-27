@@ -5,6 +5,7 @@
 ![](../../template/intro/intro_11.md) テンプレートです。
 
 この内容は、BOOTH で配布している、 [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa](https://pintocuru.booth.pm/items/5471598) の readme となります。
+
 ![](../../template/intro/intro_22_IntroOneComme.md)
 
 ## このテンプレートは何？（Features）
@@ -43,7 +44,6 @@
 
 ![Installation_92_OmikujiBotPROSet](../../template/installation/Installation_92_OmikujiBotPROSet.md)
 
-
 ## つかいかた (Usage)
 
 解説配信でも良く使われる、「ゆっくり霊夢」「ゆっくり魔理沙」を BOT キャラクターにしました。「おみくじ」BOT らしく " 博麗神社の巫女 " が、おみくじの結果を教えてくれます。
@@ -72,13 +72,15 @@
 
 ![](../../template/credits/credits_11_sozai.md)
 
+![license_92_PackageLicense](../../template/license/license_92_PackageLicense.md)
+
 ## バージョン情報 (Version)
 
 ### ver.250825
 
 - おみくじ BOT のバージョン: v0.8.0 Beta.09
-- 「通常版」と「PRO版」の2種類に分離しました。
-	- これにより、PRO版にアップグレードする作業が必要になります。
+- 「通常版」と「PRO 版」の 2 種類に分離しました。
+	- これにより、PRO 版にアップグレードする作業が必要になります。
 
 ### ver.250824
 
