@@ -11,7 +11,7 @@
 
 ![[../../template/intro/intro_22_IntroOneComme]]
 
-## このテンプレートは何？
+## このテンプレートは何？（Features）
 
 ![](images/240824_01.jpg)
 
@@ -25,29 +25,31 @@
 
 ![](images/1-2.avif)
 
-## インストール方法
+## インストール方法 (Installation)
 
 ![Installation_41_GotoTemplate](../../template/installation/Installation_41_GotoTemplate.md)
 
+- WordPatry のテンプレートは、他のジェネレーターと同様の導入が可能です。
+
 ![Installation_32_AddWordParty](../../template/installation/Installation_32_AddWordParty.md)
 
-## つかいかた・カスタマイズ
+## つかいかた・カスタマイズ (Usage/Customization)
 
 使い方は、既存の WordParty と同じです。[コメントによる演出 - WordParty](https://onecomme.com/docs/feature/wordparty) をご覧ください。
 
 カスタマイズも、「素材に関する注意事項」さえ守っていただければ、既存の WordParty と同じように扱えます。
 
-## よくある質問
+## よくある質問 (FAQ)
 
 WordParty に関する内容は、[コメントによる演出 - WordParty](https://onecomme.com/docs/feature/wordparty) をご参照ください。
 
-わんコメの機能については [よくある質問](https://onecomme.com/docs/faq) または [導入ガイド](https://onecomme.com/docs/guide) をご参照ください。
+![faq_11_infoOneComme](../../template/faq/faq_11_infoOneComme.md)
 
 ### 設定関連
 
 #### Q. パターンに入っている、「^」ってなに？「!」ってなに？
 
-A: **「^」は、前方一致と呼ばれる正規表現です。** 正規表現については、生成 AI に効いてみてください。「!」が付いているのは、コメントでその演出が意図せず出現しないようにする対処です。*ID で発動させればよかったよね？*
+A: **「^」は、前方一致と呼ばれる正規表現です。** **正規表現については、生成 AI に聞いてみてください。**「!」が付いているのは、コメントでその演出が意図せず出現しないようにする対処です。*ID で発動させればよかったよね？*
 
 #### Q. 一部 PRO 版の機能使っていない？大丈夫？
 
@@ -57,7 +59,15 @@ A: 大丈夫だって製作者さんが言ってた！
 
 A: わんコメの WordParty と一緒に使っていれば、どんな使い方でも OK です。それ以外の場所で使うのはご遠慮ください。
 
-## クレジット：イラストと音源について
+## トラブルシューティング (Troubleshooting)
+
+![troubleshooting_11_infoOneComme](../../template/troubleshooting/troubleshooting_11_infoOneComme.md)
+
+### フォルダ名を変えたら WordPatry エディタで開けなくなる
+
+A: [仕様](https://onecomme.com/docs/feature/wordparty#%E3%81%9D%E3%81%AE%E4%BB%96%E4%BB%95%E6%A7%98) です。名前を変える場合、テンプレート名の最初が「word-party」の文字列から始まるようにしてください。
+
+## クレジット・ライセンス（Credits/License）
 
 ### 🎵 効果音・BGM
 
@@ -100,11 +110,6 @@ A: わんコメの WordParty と一緒に使っていれば、どんな使い方
 - **スイカゲーム：クジラモードのクジラたち**
   [いらすとや - マッコウクジラのイラスト](https://www.irasutoya.com/2013/07/blog-post_6885.html)
 
-### 🎁 ゆっくり霊夢・魔理沙用：ギフト素材
-
-- [ツカッテ - 賽銭箱のイラスト](https://tsukatte.com/saisenbako/)
-- [ツカッテ - みずたまキノコのイラスト](https://tsukatte.com/mushroom-polka-dots/)
-
 ### 🤖 その他
 
 - **うさぎスロット：うさぎ（生成系）**
@@ -123,7 +128,15 @@ A: わんコメの WordParty と一緒に使っていれば、どんな使い方
 - WordParty に入っているイラスト素材は、わんコメの WordParty でのみ使用できます。
 - 再配布は禁止です。
 
-## バージョン情報
+## バージョン情報 (Version)
+
+### ver.250828
+
+- ゆっくり霊夢・魔理沙用：ギフト素材 の２つの素材を削除。
+	- [ツカッテ - 賽銭箱のイラスト](https://tsukatte.com/saisenbako/)
+	- [ツカッテ - みずたまキノコのイラスト](https://tsukatte.com/mushroom-polka-dots/)
+	- 新しい [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa](https://pintocuru.booth.pm/items/5471598) では、この演出を使わなくなりました。
+- [効果音ラボ](https://soundeffect-lab.info/) から新しい効果音素材を 5 種類追加。
 
 ### ver.250816
 

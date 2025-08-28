@@ -8,7 +8,7 @@
 
 ![](../../template/intro/intro_22_IntroOneComme.md)
 
-## このテンプレートは何？
+## このテンプレートは何？（Features）
 
 ![](images/default.webp)
 
@@ -17,13 +17,9 @@
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、コメントや 3 分ごとに自動でつぶやいてくれる、テンプレートです。
 ![features_21_InfoOmikujiBotReadMe](../../template/features/features_21_InfoOmikujiBotReadMe.md)
 
-## インストール方法
+![Installation_91_OmikujiBotSet](../../template/installation/Installation_91_OmikujiBotSet.md)
 
-![Installation_41_GotoTemplate](../../template/installation/Installation_41_GotoTemplate.md)
-
-![Installation_42_OmikujiWordParty](../../template/installation/Installation_42_OmikujiWordParty.md)
-
-## つかいかた
+## つかいかた (Usage)
 
 ![](images/250816_1.jpg)
 
@@ -37,6 +33,12 @@
 - **ゲーム配信**
 	- ガチャ要素のあるソーシャルゲームで使えるかもしれません。
 	- 3 分に 1 回出現するので「5%」を引いたときにガチャを引くと、いいかもしれません。
+
+### ドラちゃん
+
+- 「ドラちゃん」と呼ぶと、ひみつ道具をランダムで 1 つ出してくれます。
+	- 「ボロン」した時は、ボロンさせたユーザー名が表示されます
+- 3 分ごとに自動で出してくれますが、配信に支障が出る時は、止めておくと良いです。
 
 ## カスタマイズ
 
@@ -71,7 +73,7 @@ A: 違います。
 
 ![license_11_LicenseApp](license_11_LicenseApp.md)
 
-## バージョン情報
+## バージョン情報 (Version)
 
 ### ver.250828
 
