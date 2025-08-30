@@ -40,7 +40,11 @@
 
 - おみくじ BOT の博麗神社は、賽銭 (スパチャ・ビット等) が比較的多めに入るようで、巫女である霊夢も金銭に困っていないようです。
   - でも、お賽銭はもっと欲しいそうです。
-- おみくじ BOT のゆっくり魔理沙は、キノコだけでなく、花にも詳しい設定になっています。（フラワーおみくじ という機能で実装しています）
+- おみくじ BOT のゆっくり魔理沙は、キノコだけでなく、花にも詳しい設定になっています。（フラワー占い という機能で実装しています）
+
+### 「ちょこっと版」もリリース
+
+- キャラクターが常駐するようになった [「ちょこっと版」](https://pintocuru.booth.pm/items/7366004) もリリース。ゆっくり魔理沙が占う「フラワー占い」が無料版に入りました。良かったら使って下さい。
 
 ![Installation_92_OmikujiBotPROSet](../../template/installation/Installation_92_OmikujiBotPROSet.md)
 
@@ -48,17 +52,9 @@
 
 解説動画でも良く使われる、「ゆっくり霊夢」「ゆっくり魔理沙」を BOT キャラクターにしました。
 
-- **朝活配信**
-  - 今日 1 日の運勢を占う「おみくじ」で、配信が賑やかに。
-- **雑談配信**
-  - リスナーのコメントに対してキャラクターがボケたりツッコミを入れたりして、自然に会話が広がります。
-- **ゲーム配信**
-  - ゲームに集中していても、BOT が代わりに挨拶してくれるので、初見さんを見逃しません。
+![usage_11_HowToPlay](../../template/usage/usage_11_HowToPlay.md)
 
-### おみくじ
-
-- 「おみくじ」BOT らしく " 博麗神社の巫女 " が、おみくじの結果を教えてくれます。
-- 「大凶」の代わりに「残念賞」が入ってますが…入れたのは魔理沙らしい。
+![OmikujiBotReimuMarisa_11_omikuji](../OmikujiBotReimuMarisa/template/OmikujiBotReimuMarisa_11_omikuji.md)
 
 ![usage_21_JankenHonda](../../template/usage/usage_21_JankenHonda.md)
 
@@ -70,10 +66,9 @@
 
 ![usage_25_PromotionToast](../../template/usage/usage_25_PromotionToast.md)
 
-### PRO 版特典: 魔理沙のフラワー占い
+## PRO 版ボーナスデータ (Usage)
 
-- ちょっと本格的な、花を使った色占いです。
-- 「キノコ好き」という、ゆっくり魔理沙の設定から、キノコに関するうんちくも聞けるよ。
+![OmikujiBotReimuMarisa_12_flowerOmikuji](../OmikujiBotReimuMarisa/template/OmikujiBotReimuMarisa_12_flowerOmikuji.md)
 
 ![usage_26_GameScripts](../../template/usage/usage_26_GameScripts.md)
 
@@ -98,11 +93,16 @@
 
 ## バージョン情報 (Version)
 
+### ver.250830
+
+- おみくじ BOT のバージョン: v0.8.0 Beta.10
+- Readme に [「ちょこっと版」](https://pintocuru.booth.pm/items/7366004) に関する案内を追加。
+
 ### ver.250825
 
 - おみくじ BOT のバージョン: v0.8.0 Beta.09
 - 「通常版」と「PRO 版」の 2 種類に分離しました。
-	- これにより、PRO 版にアップグレードする作業が必要になります。
+  - これにより、PRO 版にアップグレードする作業が必要になります。
 - エディターカラーを黒から白系に変更。
 - 他、細かい修正を行いました。
 
