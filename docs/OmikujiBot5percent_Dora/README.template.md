@@ -40,17 +40,11 @@
 	- 「ボロン」した時は、ボロンさせたユーザー名が表示されます
 - 3 分ごとに自動で出してくれますが、配信に支障が出る時は、止めておくと良いです。
 
-## カスタマイズ
-
-![customization_21_ConfigEditor](../../template/customization/customization_21_ConfigEditor.md)
-
-![customization_12_illust](../../template/customization/customization_12_illust.md)
-
 ## カスタマイズ（Customization）
 
 ![customization_21_ConfigEditor](../../template/customization/customization_21_ConfigEditor.md)
 
-![](/template/customization/customization_11_illust.md)
+![customization_12_illust](../../template/customization/customization_12_illust.md)
 
 ![faq_91_OmikujiBotSet](../../template/faq/faq_91_OmikujiBotSet.md)
 
@@ -69,15 +63,19 @@ A: 違います。
 - ネタパッケージです。非営利の範囲であれば、配信での使用・改変は自由です。
 - YouTube や Twitch 等での収益化配信も、個人による非営利利用とみなします。
 	- ただし、法人・企業による利用や、パッケージの再配布・販売はご遠慮ください。
-- 改変の有無にかかわらず、再配布は禁止とさせていただきます。
+- 改変の有無にかかわらず、データ含め再配布は禁止とさせていただきます。
 
 ![license_11_LicenseApp](license_11_LicenseApp.md)
 
 ## バージョン情報 (Version)
 
-### ver.250828
+### ver.250901
 
-- おみくじ BOT のバージョン: v0.8.0 Beta.09
+- おみくじ BOT のバージョン: v1.0.0
+
+### ver.250830
+
+- おみくじ BOT のバージョン: v0.8.0 Beta.10
 
 ### ver.250816
 
