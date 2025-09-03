@@ -6,4 +6,4 @@
 
 配布パッケージの種類によっては、一部機能が制限または非表示になっている場合があります。
 
-詳しくは [おみくじBOT コンフィグエディター README](../../docs/OmikujiBot_ConfigEditor/README.md) をご覧ください。
+詳しくは [おみくじ BOT コンフィグエディター README](/docs/OmikujiBot_ConfigEditor/README.md) をご覧ください。

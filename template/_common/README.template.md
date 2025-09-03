@@ -4,9 +4,9 @@
 
 ＊この内容は、テンプレートです＊
 
-![](../../template/intro/intro_11.md) ジェネレーター BOT です。
+![](/template/intro/intro_11.md) ジェネレーター BOT です。
 
-![](../../template/intro/intro_12.md) 下記に同梱している「コンフィグエディター」![](../../template/intro/intro_13.md)
+![](/template/intro/intro_12.md) 下記に同梱している「コンフィグエディター」![](/template/intro/intro_13.md)
 
 ![](../intro/intro_22_IntroOneComme.md)
 
@@ -51,7 +51,7 @@
 
 ## カスタマイズ
 
-![customization_21_ConfigEditor](../../template/customization/customization_21_ConfigEditor.md)
+![customization_21_ConfigEditor](/template/customization/customization_21_ConfigEditor.md)
 
 ## よくある質問
 

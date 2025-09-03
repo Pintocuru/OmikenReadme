@@ -2,18 +2,18 @@
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
-![](../../template/intro/intro_11.md) テンプレートです。
+![](/template/intro/intro_11.md) テンプレートです。
 
 この内容は、BOOTH で配布している、 [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa](https://pintocuru.booth.pm/items/5471598) の readme となります。
 
-![](../../template/intro/intro_22_IntroOneComme.md)
+![](/template/intro/intro_22_IntroOneComme.md)
 
 ## このテンプレートは何？（Features）
 
 ### ゆっくり霊夢と魔理沙がリスナーを歓迎してくれるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、ゆっくり霊夢と魔理沙が楽しく出演するテンプレートです。
-  ![features_21_InfoOmikujiBotReadMe](../../template/features/features_21_InfoOmikujiBotReadMe.md)
+  ![features_21_InfoOmikujiBotReadMe](/template/features/features_21_InfoOmikujiBotReadMe.md)
 
 ### ゆっくり霊夢のキャラクター設定
 
@@ -36,7 +36,7 @@
 - 「初見詐欺」にはノリの良いツッコミを入れる
 - じゃんけんは本気で勝ちにいくタイプで、負けると悔しがる
 
-![features_31_InfoCharacter](../../template/features/features_31_InfoCharacter.md)
+![features_31_InfoCharacter](/template/features/features_31_InfoCharacter.md)
 
 - おみくじ BOT の博麗神社は、賽銭 (スパチャ・ビット等) が比較的多めに入るようで、巫女である霊夢も金銭に困っていないようです。
   - でも、お賽銭はもっと欲しいそうです。
@@ -46,58 +46,58 @@
 
 - キャラクターが常駐するようになった [「ちょこっと版」](https://pintocuru.booth.pm/items/7366004) もリリース。ゆっくり魔理沙が占う「フラワー占い」が無料版に入りました。良かったら使って下さい。
 
-![Installation_92_OmikujiBotPROSet](../../template/installation/Installation_92_OmikujiBotPROSet.md)
+![Installation_92_OmikujiBotPROSet](/template/installation/Installation_92_OmikujiBotPROSet.md)
 
 ## つかいかた (Usage)
 
 解説動画でも良く使われる、「ゆっくり霊夢」「ゆっくり魔理沙」を BOT キャラクターにしました。
 
-![usage_11_HowToPlay](../../template/usage/usage_11_HowToPlay.md)
+![usage_11_HowToPlay](/template/usage/usage_11_HowToPlay.md)
 
 ![OmikujiBotReimuMarisa_11_omikuji](../OmikujiBotReimuMarisa/template/OmikujiBotReimuMarisa_11_omikuji.md)
 
-![usage_21_JankenHonda](../../template/usage/usage_21_JankenHonda.md)
+![usage_21_JankenHonda](/template/usage/usage_21_JankenHonda.md)
 
-![usage_22_FirstCounter](../../template/usage/usage_22_FirstCounter.md)
+![usage_22_FirstCounter](/template/usage/usage_22_FirstCounter.md)
 
-![usage_23_Gift](../../template/usage/usage_23_Gift.md)
+![usage_23_Gift](/template/usage/usage_23_Gift.md)
 
-![usage_24_StreamCountTrigger](../../template/usage/usage_24_StreamCountTrigger.md)
+![usage_24_StreamCountTrigger](/template/usage/usage_24_StreamCountTrigger.md)
 
-![usage_25_PromotionToast](../../template/usage/usage_25_PromotionToast.md)
+![usage_25_PromotionToast](/template/usage/usage_25_PromotionToast.md)
 
 ## PRO 版ボーナスデータ (Usage)
 
 ![OmikujiBotReimuMarisa_12_flowerOmikuji](../OmikujiBotReimuMarisa/template/OmikujiBotReimuMarisa_12_flowerOmikuji.md)
 
-![usage_26_GameScripts](../../template/usage/usage_26_GameScripts.md)
+![usage_26_GameScripts](/template/usage/usage_26_GameScripts.md)
 
 ## カスタマイズ（Customization）
 
-![customization_21_ConfigEditor](../../template/customization/customization_21_ConfigEditor.md)
+![customization_21_ConfigEditor](/template/customization/customization_21_ConfigEditor.md)
 
 ![](/template/customization/customization_11_illust.md)
 
-![faq_91_OmikujiBotSet](../../template/faq/faq_91_OmikujiBotSet.md)
+![faq_91_OmikujiBotSet](/template/faq/faq_91_OmikujiBotSet.md)
 
-![troubleshooting_91_OmikujiBotSet](../../template/troubleshooting/troubleshooting_91_OmikujiBotSet.md)
+![troubleshooting_91_OmikujiBotSet](/template/troubleshooting/troubleshooting_91_OmikujiBotSet.md)
 
 ## クレジット（Credits）
 
 - ゆっくり霊夢・ゆっくり魔理沙イラスト
   提供元：凪ぽんの素材置き場 <https://nagipon-sozai.studio.site/>
 
-![](../../template/credits/credits_11_sozai.md)
+![](/template/credits/credits_11_sozai.md)
 
-![license_92_PackageLicense](../../template/license/license_92_PackageLicense.md)
+![license_92_PackageLicense](/template/license/license_92_PackageLicense.md)
 
 ## バージョン情報 (Version)
 
 ### ver.250901
 
 - おみくじ BOT のバージョン: v1.0.0
-	- 2024/02/02 のリリースから 1 年 7 ヶ月 (開発開始は 2024/01 なので、1 年 8 ヶ月) ついに正式リリースです。
-	- 正式版は追加データや、コンフィグエディターの一部機能が有料になりますが、引き続き無料でもお楽しみいただけます。配信で楽しんでいただけると幸いです。
+  - 2024/02/02 のリリースから 1 年 7 ヶ月 (開発開始は 2024/01 なので、1 年 8 ヶ月) ついに正式リリースです。
+  - 正式版は追加データや、コンフィグエディターの一部機能が有料になりますが、引き続き無料でもお楽しみいただけます。配信で楽しんでいただけると幸いです。
 
 ### ver.250830
 
@@ -220,6 +220,6 @@
 
 - 初版
 
-![credits_99_sesupin](../../template/credits/credits_99_sesupin.md)
+![credits_99_sesupin](/template/credits/credits_99_sesupin.md)
 
-<%* await tp.user.expandEmbeds(tp) %>
+<%\* await tp.user.expandEmbeds(tp) %>

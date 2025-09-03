@@ -12,12 +12,12 @@
 
 ## インストール方法 (Installation)
 
-![Installation_11_AddTemplate](../../template/installation/Installation_11_AddTemplate.md)
+![Installation_11_AddTemplate](/template/installation/Installation_11_AddTemplate.md)
 
-![Installation_31_AddSettings](../../template/installation/Installation_31_AddSettings.md)
+![Installation_31_AddSettings](/template/installation/Installation_31_AddSettings.md)
 
-![Installation_32_AddWordParty](../../template/installation/Installation_32_AddWordParty.md)
+![Installation_32_AddWordParty](/template/installation/Installation_32_AddWordParty.md)
 
-![credits_99_sesupin](../../template/credits/credits_99_sesupin.md)
+![credits_99_sesupin](/template/credits/credits_99_sesupin.md)
 
-<%* await tp.user.expandEmbeds(tp) %>
+<%\* await tp.user.expandEmbeds(tp) %>

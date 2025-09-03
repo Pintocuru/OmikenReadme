@@ -6,7 +6,7 @@ OBS で使える、ライバー・配信者向けビンゴカードです。
 
 この内容は、BOOTH で配布している、 [ライバービンゴ LiverBingo](https://pintocuru.booth.pm/items/6744044) の readme となります。
 
-![intro_21_IntroNoOneComme](../../template/intro/intro_21_IntroNoOneComme.md)
+![intro_21_IntroNoOneComme](/template/intro/intro_21_IntroNoOneComme.md)
 
 ## このビンゴカードでできること（Features）
 
@@ -23,20 +23,20 @@ OBS で使える、ライバー・配信者向けビンゴカードです。
 ### 💬 主な機能
 
 1. 🎮 **OBS「対話モード」による直感的な操作性**
-    - マウスひとつで、ビンゴのポイント増減が可能。
-    - パネル変更やリセットも、ワンクリックで OK。
+   - マウスひとつで、ビンゴのポイント増減が可能。
+   - パネル変更やリセットも、ワンクリックで OK。
 2. 🎨 **エディターによるテキスト・カラーの自由なカスタマイズ**
-    - エディター付きで 編集しやすい。オリジナルビンゴカードを作成可能
-    - DaisyUi による、35 種類のテーマカラーから選択可能。
+   - エディター付きで 編集しやすい。オリジナルビンゴカードを作成可能
+   - DaisyUi による、35 種類のテーマカラーから選択可能。
 3. ⏳ **配信に最適化された視認性の高いデザイン**
-    - カーソルを合わせると選択マスが拡大表示され、視認性が向上
-    - ビンゴ達成で、ラインの色が鮮やかに変化
+   - カーソルを合わせると選択マスが拡大表示され、視認性が向上
+   - ビンゴ達成で、ラインの色が鮮やかに変化
 
 ## インストール方法 (Installation)
 
-![Installation_12_ZipOpen](../../template/installation/Installation_12_ZipOpen.md)
+![Installation_12_ZipOpen](/template/installation/Installation_12_ZipOpen.md)
 
-![Installation_31_AddSettings](../../template/installation/Installation_31_AddSettings.md)
+![Installation_31_AddSettings](/template/installation/Installation_31_AddSettings.md)
 
 ## つかいかた (Usage)
 
@@ -51,15 +51,15 @@ OBS の「対話モード」を使い、ビンゴカードを操作します。
 
 #### ビンゴカードの説明
 
-- 🎯マス目の操作
-	- 左クリック：数字を 1 増やす
-	- 右クリック：数字を 1 減らす
-	- 数字が 0 の時に右クリック：マスの内容をランダムに変更
+- 🎯 マス目の操作
+  - 左クリック：数字を 1 増やす
+  - 右クリック：数字を 1 減らす
+  - 数字が 0 の時に右クリック：マスの内容をランダムに変更
 - 🔧 **テーマ設定**
-	- テーマカラーを変更可能（設定は保存されません）
-	- テーマカラーは [DaisyUi](https://daisyui.com/docs/themes/) を使用しています
+  - テーマカラーを変更可能（設定は保存されません）
+  - テーマカラーは [DaisyUi](https://daisyui.com/docs/themes/) を使用しています
 - 🃏 **タイトル**
-	- 右クリック：ビンゴカードをリセット
+  - 右クリック：ビンゴカードをリセット
 
 ## カスタマイズ（Customization）
 
@@ -129,9 +129,9 @@ A: 「obs 音が出ない」 で検索してみて下さい。
 - BOOTH 紹介画像のタイトルロゴのフォント
   提供元：ガガガガ | ヤマナカデザインワークス <https://ymnk-design.com/12-2/>
 - BOOTH 紹介画像の背景:
-  提供元：シンプルなワンルームの無料の AI 画像素材 - ID.36120｜フリー素材 ぱくたそ <https://www.pakutaso.com/20230809229oneroomDIS.html>
+  提供元：シンプルなワンルームの無料の AI 画像素材 - ID.36120 ｜フリー素材 ぱくたそ <https://www.pakutaso.com/20230809229oneroomDIS.html>
 
-![](../../template/credits/credits_11_sozai.md)
+![](/template/credits/credits_11_sozai.md)
 
 ## バージョン情報 (Version)
 
@@ -147,6 +147,6 @@ A: 「obs 音が出ない」 で検索してみて下さい。
 
 - 初期リリース
 
-![credits_99_sesupin](../../template/credits/credits_99_sesupin.md)
+![credits_99_sesupin](/template/credits/credits_99_sesupin.md)
 
-<%* await tp.user.expandEmbeds(tp) %>
+<%\* await tp.user.expandEmbeds(tp) %>

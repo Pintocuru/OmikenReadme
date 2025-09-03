@@ -1,6 +1,6 @@
-# おみくじ BOT OmikujiBot for わんコメ
+# おみくじ BOT OmikujiBot
 
-最終更新日：2025/09/01
+最終更新日：2025/09/03
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 BOT ソフトウェア です。
 
@@ -62,12 +62,12 @@
 
 パッケージによって、利用シーンは様々です。詳しくは、下記の Readme をご覧ください。
 
-- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa README](../../docs/OmikujiBotReimuMarisa/README.md)
-- [おみくじ BOT みんなのずんだもん OmikujiBot Everyone Zunda README](../../docs/OmikujiBotEveryoneZunda/README.md)
-- [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan README](../../docs/OmikujiBotDivaMetan/README.md)
-- [おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari README](../../docs/OmikujiBotTsumugiHimari/README.md)
-- [どこでもドラちゃん Bot OmikujiBot 5percent_Dora README](../../docs/OmikujiBot5percent_Dora/README.md)
-- [スイカ 🍉 ジェネレーター Gousei Suika Generator README](../../docs/GouseiSuika/README.md)
+- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa README](/docs/OmikujiBotReimuMarisa/README.md)
+- [おみくじ BOT みんなのずんだもん OmikujiBot Everyone Zunda README](/docs/OmikujiBotEveryoneZunda/README.md)
+- [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan README](/docs/OmikujiBotDivaMetan/README.md)
+- [おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari README](/docs/OmikujiBotTsumugiHimari/README.md)
+- [どこでもドラちゃん Bot OmikujiBot 5percent_Dora README](/docs/OmikujiBot5percent_Dora/README.md)
+- [スイカ 🍉 ジェネレーター Gousei Suika Generator README](/docs/GouseiSuika/README.md)
 
 ## カスタマイズ（Customization）
 
@@ -79,7 +79,7 @@
 
 配布パッケージの種類によっては、一部機能が制限または非表示になっている場合があります。
 
-詳しくは [おみくじBOT コンフィグエディター README](../../docs/OmikujiBot_ConfigEditor/README.md) をご覧ください。
+詳しくは [おみくじ BOT コンフィグエディター README](/docs/OmikujiBot_ConfigEditor/README.md) をご覧ください。
 
 ## よくある質問 (FAQ)
 
@@ -173,12 +173,12 @@ A: おみくじを短時間に何度も行うと、配信プラットフォー�
 
 それぞれのパッケージでは、各種イラスト素材を使用しています。詳しくは、下記の Readme をご覧ください。
 
-- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa README](../../docs/OmikujiBotReimuMarisa/README.md)
-- [おみくじ BOT みんなのずんだもん OmikujiBot Everyone Zunda README](../../docs/OmikujiBotEveryoneZunda/README.md)
-- [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan README](../../docs/OmikujiBotDivaMetan/README.md)
-- [おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari README](../../docs/OmikujiBotTsumugiHimari/README.md)
-- [どこでもドラちゃん Bot OmikujiBot 5percent_Dora README](../../docs/OmikujiBot5percent_Dora/README.md)
-- [スイカ 🍉 ジェネレーター Gousei Suika Generator README](../../docs/GouseiSuika/README.md)
+- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa README](/docs/OmikujiBotReimuMarisa/README.md)
+- [おみくじ BOT みんなのずんだもん OmikujiBot Everyone Zunda README](/docs/OmikujiBotEveryoneZunda/README.md)
+- [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan README](/docs/OmikujiBotDivaMetan/README.md)
+- [おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari README](/docs/OmikujiBotTsumugiHimari/README.md)
+- [どこでもドラちゃん Bot OmikujiBot 5percent_Dora README](/docs/OmikujiBot5percent_Dora/README.md)
+- [スイカ 🍉 ジェネレーター Gousei Suika Generator README](/docs/GouseiSuika/README.md)
 
 ## ライセンス（License）
 
@@ -195,19 +195,23 @@ A: おみくじを短時間に何度も行うと、配信プラットフォー�
 
 ## バージョン情報 (Version)
 
+### v1.0.1 25/09/03
+
+- コンフィグエディターの一部修正
+
 ### v1.0.0 25/09/01
 
 - 正式リリース
-	- 開発開始から 1 年 9 ヶ月、ついに正式リリースです。
-	- もっと機能追加を行いたいと考えてます。
+  - 開発開始から 1 年 9 ヶ月、ついに正式リリースです。
+  - もっと機能追加を行いたいと考えてます。
 
 ### v0.8.0 Beta.10 25/09/01
 
 - 「最後の有効な結果を返す」の機能修正
-	- 回数を超過したとき、トーストで最後の結果を表示させることにしました。
+  - 回数を超過したとき、トーストで最後の結果を表示させることにしました。
 - プレースホルダー機能の強化
-	- null 機能の追加
-	- Readme にはない機能も増やす予定です…
+  - null 機能の追加
+  - Readme にはない機能も増やす予定です…
 
 ### v0.8.0 Beta.09 25/08/26
 

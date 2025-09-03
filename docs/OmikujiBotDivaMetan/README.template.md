@@ -2,18 +2,18 @@
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
-![](../../template/intro/intro_11.md) テンプレートです。
+![](/template/intro/intro_11.md) テンプレートです。
 
-![](../../template/intro/intro_12.md) [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan](https://pintocuru.booth.pm/items/6058829)![](../../template/intro/intro_13.md)
+![](/template/intro/intro_12.md) [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan](https://pintocuru.booth.pm/items/6058829)![](/template/intro/intro_13.md)
 
-![](../../template/intro/intro_22_IntroOneComme.md)
+![](/template/intro/intro_22_IntroOneComme.md)
 
 ## 1.このテンプレートは何？
 
 ### めたんがリスナーを歓迎してくれるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、四国めたんが上から目線で対応するテンプレートです。
-![features_21_InfoOmikujiBotReadMe](../../template/features/features_21_InfoOmikujiBotReadMe.md)
+  ![features_21_InfoOmikujiBotReadMe](/template/features/features_21_InfoOmikujiBotReadMe.md)
 
 ### 四国めたん のキャラクター設定
 
@@ -25,33 +25,33 @@
 - 中二病をカッコいいと思う節があり「おみくじ」「じゃんけん」のおみくじでは「漆黒のめたん」という名前になります。
 - 「キス魔」で、時々キスに関する話題を出しています。
 
-![features_31_InfoCharacter](../../template/features/features_31_InfoCharacter.md)
+![features_31_InfoCharacter](/template/features/features_31_InfoCharacter.md)
 
 ## インストール方法
 
-![Installation_41_GotoTemplate](../../template/installation/Installation_41_GotoTemplate.md)
+![Installation_41_GotoTemplate](/template/installation/Installation_41_GotoTemplate.md)
 
-![Installation_42_OmikujiWordParty](../../template/installation/Installation_42_OmikujiWordParty.md)
+![Installation_42_OmikujiWordParty](/template/installation/Installation_42_OmikujiWordParty.md)
 
 ## つかいかた
 
 [VOICEVOX](https://voicevox.hiroshiba.jp/) では定番のキャラクターですが、このおみくじ BOT では、ややキャラクターにクセがあります。BOT にユニークさを求めたいときに使うと良さそうです。
 
 - **朝活配信**
-	- 今日 1 日の運勢を占う「おみくじ」で、配信が賑やかに。
+  - 今日 1 日の運勢を占う「おみくじ」で、配信が賑やかに。
 - **雑談配信**
-	- リスナーのコメントに対してキャラクターがボケたりツッコミを入れたりして、自然に会話が広がります。
+  - リスナーのコメントに対してキャラクターがボケたりツッコミを入れたりして、自然に会話が広がります。
 - **ゲーム配信**
-	- ゲームに集中していても、BOT が代わりに挨拶してくれるので、初見さんを見逃しません。
+  - ゲームに集中していても、BOT が代わりに挨拶してくれるので、初見さんを見逃しません。
 
 ## カスタマイズ
 
-![](/template/customization/customization_11_illust.md)(../../template/customization/customization_11.md)
+![](/template/customization/customization_11_illust.md)(/template/customization/customization_11.md)
 
 ## クレジット：イラストと音源について
 
 - **【立ち絵素材】四国めたんデフォルメ立ち絵**
-   [【立ち絵素材】四国めたんデフォルメ立ち絵 / いえちー さんのイラスト - ニコニコ静画 (イラスト)](https://seiga.nicovideo.jp/seiga/im11022280)
+  [【立ち絵素材】四国めたんデフォルメ立ち絵 / いえちー さんのイラスト - ニコニコ静画 (イラスト)](https://seiga.nicovideo.jp/seiga/im11022280)
 
 ### 素材の取り扱いについて
 
@@ -69,6 +69,6 @@
 
 - 「初見判定ちゃん 高飛車な四国めたん」としてリリース。
 
-![credits_99_sesupin](../../template/credits/credits_99_sesupin.md)
+![credits_99_sesupin](/template/credits/credits_99_sesupin.md)
 
-<%* await tp.user.expandEmbeds(tp) %>
+<%\* await tp.user.expandEmbeds(tp) %>

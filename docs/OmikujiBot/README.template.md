@@ -1,14 +1,14 @@
-# おみくじ BOT OmikujiBot for わんコメ
+# おみくじ BOT OmikujiBot
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
-![](../../template/intro/intro_11.md) BOT ソフトウェア です。
+![](/template/intro/intro_11.md) BOT ソフトウェア です。
 
 このテンプレートは、下記のパッケージの内容を含みます。
 
-![OmikujiBotPackageBOOTH](../../template/_common/OmikujiBotPackageBOOTH.md)
+![OmikujiBotPackageBOOTH](/template/_common/OmikujiBotPackageBOOTH.md)
 
-![](../../template/intro/intro_22_IntroOneComme.md)
+![](/template/intro/intro_22_IntroOneComme.md)
 
 ## このテンプレートは何？（Features）
 
@@ -53,13 +53,13 @@
 
 パッケージによって、利用シーンは様々です。詳しくは、下記の Readme をご覧ください。
 
-![OmikujiBotPackageReadme](../../template/_common/OmikujiBotPackageReadme.md)
+![OmikujiBotPackageReadme](/template/_common/OmikujiBotPackageReadme.md)
 
 ## カスタマイズ（Customization）
 
-![customization_21_ConfigEditor](../../template/customization/customization_21_ConfigEditor.md)
+![customization_21_ConfigEditor](/template/customization/customization_21_ConfigEditor.md)
 
-![faq_91_OmikujiBotSet](../../template/faq/faq_91_OmikujiBotSet.md)
+![faq_91_OmikujiBotSet](/template/faq/faq_91_OmikujiBotSet.md)
 
 ### フキダシ・キャラクター表示関連
 
@@ -99,7 +99,7 @@ A: おみくじ (omikuji)＋初見 (syoken) から取ってます。前作「初
 
 ## トラブルシューティング (Troubleshooting)
 
-![troubleshooting_11_infoOneComme](../../template/troubleshooting/troubleshooting_11_infoOneComme.md)
+![troubleshooting_11_infoOneComme](/template/troubleshooting/troubleshooting_11_infoOneComme.md)
 
 ### 設定・表示・音声関連
 
@@ -139,25 +139,29 @@ A: おみくじを短時間に何度も行うと、配信プラットフォー�
 
 それぞれのパッケージでは、各種イラスト素材を使用しています。詳しくは、下記の Readme をご覧ください。
 
-![OmikujiBotPackageReadme](../../template/_common/OmikujiBotPackageReadme.md)
+![OmikujiBotPackageReadme](/template/_common/OmikujiBotPackageReadme.md)
 
-![license_91_AppLicense](../../template/license/license_91_AppLicense.md)
+![license_91_AppLicense](/template/license/license_91_AppLicense.md)
 
 ## バージョン情報 (Version)
+
+### v1.0.1 25/09/03
+
+- コンフィグエディターの一部修正
 
 ### v1.0.0 25/09/01
 
 - 正式リリース
-	- 開発開始から 1 年 9 ヶ月、ついに正式リリースです。
-	- もっと機能追加を行いたいと考えてます。
+  - 開発開始から 1 年 9 ヶ月、ついに正式リリースです。
+  - もっと機能追加を行いたいと考えてます。
 
 ### v0.8.0 Beta.10 25/09/01
 
 - 「最後の有効な結果を返す」の機能修正
-	- 回数を超過したとき、トーストで最後の結果を表示させることにしました。
+  - 回数を超過したとき、トーストで最後の結果を表示させることにしました。
 - プレースホルダー機能の強化
-	- null 機能の追加
-	- Readme にはない機能も増やす予定です…
+  - null 機能の追加
+  - Readme にはない機能も増やす予定です…
 
 ### v0.8.0 Beta.09 25/08/26
 
@@ -208,6 +212,6 @@ A: おみくじを短時間に何度も行うと、配信プラットフォー�
 - 履歴機能の表示が大きくなりました。
 - v0.7 以前の設定は使用できません。ご了承ください。
 
-![credits_99_sesupin](../../template/credits/credits_99_sesupin.md)
+![credits_99_sesupin](/template/credits/credits_99_sesupin.md)
 
 <%* await tp.user.expandEmbeds(tp) %>
