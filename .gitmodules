@@ -1,0 +1,3 @@
+[submodule "packages/OmikujiBot"]
+	path = packages/OmikujiBot
+	url = https://github.com/Pintocuru/OmikujiBot-Docs.git
