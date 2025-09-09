@@ -6,7 +6,7 @@ OBS で使える、ライバー・配信者向けビンゴカードです。
 
 この内容は、BOOTH で配布している、 [ライバービンゴ LiverBingo](https://pintocuru.booth.pm/items/6744044) の readme となります。
 
-![intro_21_IntroNoOneComme](/template/intro/intro_21_IntroNoOneComme.md)
+![intro_21_IntroNoOneComme](/sharedTemplate/intro/intro_21_IntroNoOneComme.md)
 
 ## このビンゴカードでできること（Features）
 
@@ -34,9 +34,9 @@ OBS で使える、ライバー・配信者向けビンゴカードです。
 
 ## インストール方法 (Installation)
 
-![Installation_12_ZipOpen](/template/installation/Installation_12_ZipOpen.md)
+![Installation_12_ZipOpen](/packages/OmikujiBot/template/installation/Installation_12_ZipOpen.md)
 
-![Installation_31_AddSettings](/template/installation/Installation_31_AddSettings.md)
+![Installation_31_AddSettings](/packages/OmikujiBot/template/installation/Installation_31_AddSettings.md)
 
 ## つかいかた (Usage)
 
@@ -131,7 +131,7 @@ A: 「obs 音が出ない」 で検索してみて下さい。
 - BOOTH 紹介画像の背景:
   提供元：シンプルなワンルームの無料の AI 画像素材 - ID.36120 ｜フリー素材 ぱくたそ <https://www.pakutaso.com/20230809229oneroomDIS.html>
 
-![](/template/credits/credits_11_sozai.md)
+![](/sharedTemplate/credits/credits_11_sozai.md)
 
 ## バージョン情報 (Version)
 
@@ -147,6 +147,6 @@ A: 「obs 音が出ない」 で検索してみて下さい。
 
 - 初期リリース
 
-![credits_99_sesupin](/template/credits/credits_99_sesupin.md)
+![credits_99_sesupin](/sharedTemplate/credits/credits_99_sesupin.md)
 
 <%\* await tp.user.expandEmbeds(tp) %>

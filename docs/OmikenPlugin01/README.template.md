@@ -2,11 +2,11 @@
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
-![[/template/intro/intro_11]] ジェネレーター BOT です。
+![[/sharedTemplate/intro/intro_11]] ジェネレーター BOT です。
 
-![[/template/_common/OmikujiBotPackageBOOTH]](/template/_common/OmikujiBotIntoPackage.md)
+![[/packages/OmikujiBot/template/_common/OmikujiBotPackageBOOTH]](/template/_common/OmikujiBotIntoPackage.md)
 
-![[/template/intro/intro_22_IntroOneComme]]
+![[/sharedTemplate/intro/intro_22_IntroOneComme]]
 
 ## このジェネレーターは何？
 
@@ -53,7 +53,7 @@
 
 ## カスタマイズ
 
-![customization_21_ConfigEditor](/template/customization/customization_21_ConfigEditor.md)
+![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)
 
 ## よくある質問
 

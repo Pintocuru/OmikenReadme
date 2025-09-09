@@ -14,7 +14,7 @@
 
 ### わんコメにテンプレートをインストールする
 
-![テンプレートにZIPを丸ごと入れる](/template/installation/images/2-2.jpg)
+![テンプレートにZIPを丸ごと入れる](/packages/OmikujiBot/template/installation/images/2-2.jpg)
 
 ダウンロードページから、テンプレートをダウンロードしてください。**zip ファイルの解凍は不要**です。
 
@@ -23,7 +23,7 @@
 
 ### テンプレートを OBS に挿入した後の追加設定
 
-![ブラウザソースのプロパティを設定する](/template/installation/images/2-3.png)
+![ブラウザソースのプロパティを設定する](/packages/OmikujiBot/template/installation/images/2-3.png)
 
 ブラウザソースのサイズを指定する際、追加で下記の設定を行ってください。
 

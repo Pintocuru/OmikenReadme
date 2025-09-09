@@ -2,15 +2,15 @@
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
-![[/template/intro/intro_11]] ジェネレーター BOT です。
+![[/sharedTemplate/intro/intro_11]] ジェネレーター BOT です。
 
-![[/template/_common/OmikujiBotPackageBOOTH]](/template/_common/OmikujiBotIntoPackage.md)
+![[/packages/OmikujiBot/template/_common/OmikujiBotPackageBOOTH]](/template/_common/OmikujiBotIntoPackage.md)
 
-![[/template/intro/intro_22_IntroOneComme]]
+![[/sharedTemplate/intro/intro_22_IntroOneComme]]
 
 ## このジェネレーターは何？
 
-![](images/1-1.avif)
+![](../OmikujiBot/images/1-1.avif)
 
 ### 🎯 わんコメに BOT 機能を付与するジェネレーター
 
@@ -20,7 +20,7 @@
 
 ### ✨【おみくじ BOT OmikujiBot】で、できること
 
-![](images/1-2.avif)
+![](../OmikujiBot/images/1-2.avif)
 
 1. **コメントに反応する【おみくじシステム】**
    - `おみくじ` とコメントすると、今日の運勢をランダムで表示
@@ -53,7 +53,7 @@
 
 ## カスタマイズ
 
-![customization_21_ConfigEditor](/template/customization/customization_21_ConfigEditor.md)
+![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)
 
 ## よくある質問
 
@@ -80,7 +80,7 @@ A: おみくじの結果が表示されない場合は、以下の点をご確�
 
 #### Q. おみくじをメンバー限定にしたい
 
-![](images/5-1.avif)
+![](../OmikujiBot/images/5-1.avif)
 
 A: メンバー限定にするには、おみくじメーカーの「条件設定」で「メンバー」を設定してください。
 
@@ -90,7 +90,7 @@ A: はい、おみくじの内容は自由に変更していただいて構い�
 
 #### Q. じゃんけんの勝率低すぎない？
 
-![](images/5-2.avif)
+![](../OmikujiBot/images/5-2.avif)
 
 A: これでも高い方です。ケイスケ ホンダはもっと強いです。
 

@@ -2,11 +2,11 @@
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
-![](/template/intro/intro_11.md) テンプレートです。
+![](/sharedTemplate/intro/intro_11.md) テンプレートです。
 
 この内容は、BOOTH で配布している、 [スイカ 🍉 ジェネレーター Gousei Suika Generator](https://pintocuru.booth.pm/items/5813323) の readme となります。
 
-![](/template/intro/intro_22_IntroOneComme.md)
+![](/sharedTemplate/intro/intro_22_IntroOneComme.md)
 
 ## このテンプレートは何？（Features）
 
@@ -30,7 +30,7 @@
 - 「クジラゲーム」：クジラゲーム風のおみくじ
   - 得点は「スイカゲーム」「カボチャゲーム」よりハイリスク・ハイリターンに！最低記録も目標になっちゃう？
 
-![Installation_91_OmikujiBotSet](/template/installation/Installation_91_OmikujiBotSet.md)
+![Installation_91_OmikujiBotSet](/packages/OmikujiBot/template/installation/Installation_91_OmikujiBotSet.md)
 
 ## つかいかた (Usage)
 
@@ -45,7 +45,7 @@
 
 ## カスタマイズ（Customization）
 
-![customization_21_ConfigEditor](/template/customization/customization_21_ConfigEditor.md)
+![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)
 
 - おみくじの内容は、配信スタイルに合わせて **自由にカスタマイズ** できます。
 - ゲームの結果は「ゲームスクリプト」と呼ばれる特殊なプレースホルダー生成機能によって実現しています。
@@ -54,11 +54,11 @@
 
 ## よくある質問 (FAQ)
 
-![faq_11_infoOneComme](/template/faq/faq_11_infoOneComme.md)
+![faq_11_infoOneComme](/packages/OmikujiBot/template/faq/faq_11_infoOneComme.md)
 
 ### システム関連
 
-![faq_21_LimitEdit](/template/faq/faq_21_LimitEdit.md)
+![faq_21_LimitEdit](/packages/OmikujiBot/template/faq/faq_21_LimitEdit.md)
 
 ### スイカゲーム関連
 
@@ -78,7 +78,7 @@ A: 最低値は理論上 560 点、最高は 9999 点以上です。ただし、
 
 A: ごめんなさい 💦 旧版にあった占いは無料にしたので、よかったら使ってください。
 
-![troubleshooting_91_OmikujiBotSet](/template/troubleshooting/troubleshooting_91_OmikujiBotSet.md)
+![troubleshooting_91_OmikujiBotSet](/packages/OmikujiBot/template/troubleshooting/troubleshooting_91_OmikujiBotSet.md)
 
 #### Q. OBS のシーン移動でランキングがリセットされる
 
@@ -133,6 +133,6 @@ A: 現在の仕様です。シーン移動時にランキングは保持され�
 
 - 初版
 
-![credits_99_sesupin](/template/credits/credits_99_sesupin.md)
+![credits_99_sesupin](/sharedTemplate/credits/credits_99_sesupin.md)
 
 <%\* await tp.user.expandEmbeds(tp) %>
