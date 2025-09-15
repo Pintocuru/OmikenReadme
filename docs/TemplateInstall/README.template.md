@@ -12,11 +12,11 @@
 
 ## インストール方法 (Installation)
 
-![Installation_11_AddTemplate](/packages/OmikujiBot/template/installation/Installation_11_AddTemplate.md)
+![Installation_11_AddTemplate](/sharedTemplate/installation/Installation_11_AddTemplate.md)
 
-![Installation_31_AddSettings](/packages/OmikujiBot/template/installation/Installation_31_AddSettings.md)
+![Installation_31_AddSettings](/sharedTemplate/installation/Installation_31_AddSettings.md)
 
-![Installation_32_AddWordParty](/packages/OmikujiBot/template/installation/Installation_32_AddWordParty.md)
+![Installation_32_AddWordParty](/sharedTemplate/installation/Installation_32_AddWordParty.md)
 
 ![credits_99_sesupin](/sharedTemplate/credits/credits_99_sesupin.md)
 
