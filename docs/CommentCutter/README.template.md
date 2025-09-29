@@ -20,6 +20,9 @@
 
 ![Installation_93_PluginSet](../../sharedTemplate/installation/Installation_93_PluginSet.md)
 
+- 解凍してできた「FilterAdvance」フォルダを、プラグインフォルダ内に移動します
+	- プラグインはフォルダ名で識別されるため、必ず「FilterAdvance」（バージョン表記のないフォルダ名）を使用してください。
+
 ## つかいかた (Usage)
 
 - デフォルトで「コメントフィルターアドバンス」を ON にすると、「メンバーのみ読み上げ」が適用されます。（Youtube のメンバー、Twitch のサブスク、ニコ生のプレミアム会員のコメントのみが読み上げられます）
@@ -104,9 +107,7 @@
 
 ## バージョン情報 (Version)
 
-### ver.1.0.0-beta01 (2025/09/29)
-
-- 初版
+> 詳細な変更履歴は [Releases](https://github.com/Pintocuru/CommentCutter/releases) をご覧ください。
 
 ![credits_99_sesupin](/sharedTemplate/credits/credits_99_sesupin.md)
 
