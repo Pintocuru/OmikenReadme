@@ -34,9 +34,9 @@ OBS で使える、ライバー・配信者向けビンゴカードです。
 
 ## インストール方法 (Installation)
 
-![Installation_12_ZipOpen](/packages/OmikujiBot/template/installation/Installation_12_ZipOpen.md)
+![Installation_12_ZipOpen](../../sharedTemplate/installation/Installation_12_ZipOpen.md)
 
-![Installation_31_AddSettings](/packages/OmikujiBot/template/installation/Installation_31_AddSettings.md)
+![Installation_31_AddSettings](../../template/installation/Installation_31_AddSettings.md)
 
 ## つかいかた (Usage)
 
@@ -149,4 +149,4 @@ A: 「obs 音が出ない」 で検索してみて下さい。
 
 ![credits_99_sesupin](/sharedTemplate/credits/credits_99_sesupin.md)
 
-<%\* await tp.user.expandEmbeds(tp) %>
+<%* await tp.user.expandEmbeds(tp) %>

@@ -1,6 +1,6 @@
 # ライバービンゴ LiverBingo
 
-最終更新日：2025/08/18
+最終更新日：2025/12/05
 
 OBS で使える、ライバー・配信者向けビンゴカードです。
 
@@ -39,22 +39,14 @@ OBS で使える、ライバー・配信者向けビンゴカードです。
 
 ### Zip ファイルを解凍し、適切なフォルダに入れる
 
-![OBSにドラッグ＆ドロップする](./images/2-1.jpg)
+![OBSにドラッグ＆ドロップする](images/2-1.jpg)
 
 ダウンロードページから、テンプレートをダウンロードしてください。
 
 1. ダウンロードした zip ファイルを解凍する
 2. 後で参照しやすいよう、OBS 用フォルダやデスクトップなど分かりやすい場所に保存する
 
-### テンプレートを OBS に挿入した後の追加設定
-
-![ブラウザソースのプロパティを設定する](/packages/OmikujiBot/template/installation/images/2-3.png)
-
-ブラウザソースのサイズを指定する際、追加で下記の設定を行ってください。
-
-1. 以下の 2 つにチェックを入れる
-   - ✅ 表示されていないときにソースをシャットダウンする
-   - ✅ シーンがアクティブになったときにブラウザの表示を更新する
+![Installation_31_AddSettings](../../template/installation/Installation_31_AddSettings.md)
 
 ## つかいかた (Usage)
 
@@ -143,11 +135,11 @@ A: 「obs 音が出ない」 で検索してみて下さい。
 ## クレジット（Credits）
 
 - すべての効果音
-  提供元： [効果音ラボ](https://soundeffect-lab.info/)
+  提供元：効果音ラボ <https://soundeffect-lab.info/>
 - BOOTH 紹介画像のタイトルロゴのフォント
-  提供元：[ガガガガ | ヤマナカデザインワークス](https://ymnk-design.com/12-2/)
+  提供元：ガガガガ | ヤマナカデザインワークス <https://ymnk-design.com/12-2/>
 - BOOTH 紹介画像の背景:
-  提供元：[シンプルなワンルームの無料の AI 画像素材 - ID.36120 ｜フリー素材 ぱくたそ](https://www.pakutaso.com/20230809229oneroomDIS.html)
+  提供元：シンプルなワンルームの無料の AI 画像素材 - ID.36120 ｜フリー素材 ぱくたそ <https://www.pakutaso.com/20230809229oneroomDIS.html>
 
 ### 素材の取り扱いについて
 
@@ -170,6 +162,6 @@ A: 「obs 音が出ない」 で検索してみて下さい。
 
 ---
 
-作成者：せすじピンとしてます @pintocuru
+作成者：Pintocuru(せすじピンとしてます) @pintocuru
 
 [Twitter](https://twitter.com/pintocuru) | [YouTube](https://www.youtube.com/@pintocuru)
