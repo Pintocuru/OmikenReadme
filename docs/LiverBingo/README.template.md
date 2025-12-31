@@ -36,7 +36,7 @@ OBS で使える、ライバー・配信者向けビンゴカードです。
 
 ![Installation_12_ZipOpen](../../sharedTemplate/installation/Installation_12_ZipOpen.md)
 
-![Installation_31_AddSettings](../../template/installation/Installation_31_AddSettings.md)
+![Installation_31_AddSettings](../../sharedTemplate/installation/Installation_31_AddSettings.md)
 
 ## つかいかた (Usage)
 
