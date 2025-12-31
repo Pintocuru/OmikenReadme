@@ -1,6 +1,6 @@
 ### Zip ファイルを解凍し、適切なフォルダに入れる
 
-![OBSにドラッグ＆ドロップする](images/2-1.jpg)
+![OBSにドラッグ＆ドロップする](/sharedTemplate/installation/images/2-1.jpg)
 
 ダウンロードページから、テンプレートをダウンロードしてください。
 
