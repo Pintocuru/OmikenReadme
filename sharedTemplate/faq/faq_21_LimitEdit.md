@@ -1,7 +1,0 @@
-#### Q. ギフト・スパチャされた時にだけ発動させたい
-
-#### Q. メンバー限定で発動させたい
-
-#### Q. 1 日 1 回と、回数を制限したい
-
-A: [おみくじ BOT コンフィグエディター](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で設定が可能です。
