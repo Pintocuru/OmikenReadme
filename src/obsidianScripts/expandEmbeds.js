@@ -1,12 +1,12 @@
 // src/obsidianScripts/expandEmbeds.js
 // 単一ファイル版（可読性を保ちつつ分割を諦める）
 
-module.exports = async (tp) => {
+module.exports = async (tp, lang = "en") => {
   // ==================== 設定 ====================
   const CONFIG = {
     MAX_DEPTH: 5,
     EXT: ".md",
-    OUTPUT: "README.md",
+    OUTPUT: lang === "en" ? "README.md" : `README.${lang}.md`,
     // 画像ファイルの拡張子（埋め込み展開をスキップ）
     IMAGE_EXTENSIONS: [
       ".png",

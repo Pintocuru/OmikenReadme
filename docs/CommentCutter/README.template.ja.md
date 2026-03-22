@@ -111,4 +111,4 @@
 
 ![credits_99_sesupin](/sharedTemplate/credits/credits_99_sesupin.md)
 
-<%* await tp.user.expandEmbeds(tp) %>
+<%\* await tp.user.expandEmbeds(tp) %>

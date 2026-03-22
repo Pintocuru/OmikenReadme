@@ -1,12 +1,16 @@
 # コメントフィルターアドバンス FilterAdvance
 
-最終更新日：<% tp.date.now('YYYY/MM/DD') %>
+最終更新日：2025/09/29
 
-![intro_11](../../sharedTemplate/intro/intro_11.md) プラグインです。
+配信者のためのコメントアプリ「わんコメ」で使用できる、 プラグインです。
 
 この内容は、BOOTH で配布している、 [コメントフィルターアドバンス FilterAdvance](https://pintocuru.booth.pm/items/7480687) の readme となります。
 
-![](/sharedTemplate/intro/intro_22_IntroOneComme.md)
+## はじめに（Intro）
+
+- [わんコメ](https://onecomme.com/) の機能を前提としたソフトウェアです。
+- 本ソフトウェアの利用は自己責任でお願いいたします。
+- 仕様は予告なく変更される場合があります。
 
 ## このプラグインは何？（Features）
 
@@ -18,7 +22,15 @@
   - わんコメでも標準でユーザー単位で個別にフィルタリングは可能ですが、「メンバーのみ表示」「モデレーターを表示」など、属性やコメント数を指定して表示・非表示が可能です
   - 「コメントの非表示」だけでなく、コメントは表示されるが、読み上げのみしない、という設定も可能です。
 
-![Installation_93_PluginSet](../../sharedTemplate/installation/Installation_93_PluginSet.md)
+## インストール (Installation)
+
+### わんコメにプラグインをインストールする
+
+ダウンロードページから、テンプレートをダウンロードしてください。
+
+- ダウンロードした zip ファイルを解凍します
+- わんコメを起動し、メイン画面右上の【…】ボタンから「プラグイン」を選択します
+- プラグインウィンドウ右上の「プラグインフォルダ」をクリックして、フォルダを開きます
 
 - 解凍してできた「FilterAdvance」フォルダを、プラグインフォルダ内に移動します
   - プラグインはフォルダ名で識別されるため、必ず「FilterAdvance」（バージョン表記のないフォルダ名）を使用してください。
@@ -58,7 +70,7 @@
 
 ## よくある質問 (FAQ)
 
-![faq_11_infoOneComme](../../sharedTemplate/faq/faq_11_infoOneComme.md)
+> わんコメの機能については [よくある質問](https://onecomme.com/docs/faq) または [導入ガイド](https://onecomme.com/docs/guide) をご参照ください。
 
 #### わんコメに既に「読み上げ除外」があるよね？
 
@@ -76,7 +88,7 @@
 
 ## トラブルシューティング (Troubleshooting)
 
-![troubleshooting_11_infoOneComme](../../sharedTemplate/troubleshooting/troubleshooting_11_infoOneComme.md)
+> わんコメの機能については [トラブルシューティング](https://onecomme.com/docs/trouble-shooting) または [導入ガイド](https://onecomme.com/docs/guide) をご参照ください。
 
 #### コメントテスターで「不具合かな？」と勘違いしやすいケース
 
@@ -89,7 +101,10 @@
 - コメントからお菓子作ってる女性
   生成：Google Gemini <https://gemini.google.com/>
 
-![](/sharedTemplate/credits/credits_11_sozai.md)
+### 素材の取り扱いについて
+
+- イラスト素材・動画・音源の再配布は禁止
+- イラストや音源の利用については、各配布サイトの利用規約をご確認ください。
 
 ![](images/250929_2.webp)
 
@@ -109,6 +124,8 @@
 
 > 詳細な変更履歴は [Releases](https://github.com/Pintocuru/CommentCutter/releases) をご覧ください。
 
-![credits_99_sesupin](/sharedTemplate/credits/credits_99_sesupin.md)
+---
 
-<%* await tp.user.expandEmbeds(tp) %>
+作成者：せすじピンとしてます @pintocuru
+
+[Twitter](https://twitter.com/pintocuru) | [YouTube](https://www.youtube.com/@pintocuru)
